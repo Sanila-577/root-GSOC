@@ -1,0 +1,88 @@
+stages:
+  - build
+
+default:
+  tags:
+    - docker_node
+
+.deb_build: &deb_build
+  stage: build
+  variables:
+    DEBIAN_FRONTEND: noninteractive
+  script:
+    - source /etc/os-release
+    - apt update -qq
+    - apt install -y build-essential devscripts equivs git
+    - VERSION=$(./genversion.sh --sanitize)
+    - dch --create --package xrootd -v ${VERSION} -M 'XRootD automated build.'
+    - mk-build-deps --install --remove debian/control <<< y
+    - debuild --no-tgz-check --no-sign -b
+    - apt install -y ../*.d*eb
+    - mkdir -p DEB/${ID}/${VERSION_CODENAME}
+    - mv ../*.deb DEB/${ID}/${VERSION_CODENAME}
+    - tests/post-install.sh
+  artifacts:
+    paths: [ DEB ]
+    expire_in: 1 day
+
+.rpm_build_dnf: &rpm_build_dnf
+  stage: build
+  script:
+    - dnf install -y dnf-plugins-core git rpmdevtools
+    - rpmdev-setuptree
+    - dnf builddep -y xrootd.spec
+    - git archive --prefix xrootd/ -o $(rpm -E '%{_sourcedir}')/xrootd.tar.gz HEAD
+    - rpmbuild -bb --with git xrootd.spec
+    - dnf install -y $(rpm -E '%{_rpmdir}')/*/*.rpm
+    - tests/post-install.sh
+    - mkdir -p RPMS
+    - mv $(rpm -E '%{_rpmdir}')/ RPMS$(rpm -E '%{dist}' | tr . /)
+  artifacts:
+    paths: [ RPMS ]
+    expire_in: 1 day
+
+Debian 11:
+  image: debian:11
+  <<: *deb_build
+
+Debian 12:
+  image: debian:12
+  <<: *deb_build
+
+Ubuntu 22.04:
+  image: ubuntu:22.04
+  <<: *deb_build
+
+Ubuntu 24.04:
+  image: ubuntu:24.04
+  <<: *deb_build
+
+AlmaLinux 8:
+  image: almalinux:8
+  before_script:
+    - dnf install -y epel-release
+    - dnf install -y epel-rpm-macros
+    - dnf config-manager --set-enabled powertools
+  <<: *rpm_build_dnf
+
+AlmaLinux 9:
+  image: almalinux:9
+  before_script:
+    - dnf install -y epel-release
+    - dnf config-manager --set-enabled crb
+  <<: *rpm_build_dnf
+
+AlmaLinux 10:
+  image: almalinux:10
+  before_script:
+    - dnf install -y epel-release
+    - dnf config-manager --set-enabled crb
+  <<: *rpm_build_dnf
+
+Fedora 41:
+  image: fedora:41
+  <<: *rpm_build_dnf
+
+Fedora 42:
+  image: fedora:42
+  <<: *rpm_build_dnf

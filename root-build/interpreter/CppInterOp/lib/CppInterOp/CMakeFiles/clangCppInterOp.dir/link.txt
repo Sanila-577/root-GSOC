@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libclangCppInterOp.a CMakeFiles/clangCppInterOp.dir/CppInterOp.cpp.o CMakeFiles/clangCppInterOp.dir/Dispatch.cpp.o CMakeFiles/clangCppInterOp.dir/CXCppInterOp.cpp.o
+/usr/bin/ranlib ../../../../lib/libclangCppInterOp.a

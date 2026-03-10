@@ -1,0 +1,1 @@
+"/Library/Developer/CommandLineTools/usr/bin/libtool" -static -no_warning_for_no_symbols -o ../../libLLVMDWARFLinkerClassic.a CMakeFiles/LLVMDWARFLinkerClassic.dir/DWARFLinkerCompileUnit.cpp.o CMakeFiles/LLVMDWARFLinkerClassic.dir/DWARFLinkerDeclContext.cpp.o CMakeFiles/LLVMDWARFLinkerClassic.dir/DWARFLinker.cpp.o CMakeFiles/LLVMDWARFLinkerClassic.dir/DWARFStreamer.cpp.o

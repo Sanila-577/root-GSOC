@@ -1,0 +1,14 @@
+prefix=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/FREETYPE-prefix
+exec_prefix=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/FREETYPE-prefix
+libdir=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/FREETYPE-prefix/lib
+includedir=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/FREETYPE-prefix/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/FREETYPE-prefix/lib -lfreetype -lz
+Libs.private: 
+Cflags: -I${includedir}/freetype2

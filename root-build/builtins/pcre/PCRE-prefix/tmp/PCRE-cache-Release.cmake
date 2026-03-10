@@ -1,0 +1,10 @@
+
+set(CMAKE_INSTALL_PREFIX "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix" CACHE PATH "Initial cache" FORCE)
+set(CMAKE_GENERATOR "Unix Makefiles" CACHE STRING "Initial cache" FORCE)
+set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Initial cache" FORCE)
+set(CMAKE_C_COMPILER "/usr/bin/cc" CACHE STRING "Initial cache" FORCE)
+set(CMAKE_CXX_COMPILER "/usr/bin/c++" CACHE STRING "Initial cache" FORCE)
+set(CMAKE_BUILD_SHARED_LIBS "FALSE" CACHE BOOL "Initial cache" FORCE)
+set(CMAKE_POSITION_INDEPENDENT_CODE "TRUE" CACHE BOOL "Initial cache" FORCE)
+set(CMAKE_POLICY_VERSION_MINIMUM "3.5" CACHE STRING "Initial cache" FORCE)
+set(PCRE_BUILD_TESTS "FALSE" CACHE BOOL "Initial cache" FORCE)

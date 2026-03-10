@@ -1,0 +1,14 @@
+# Target labels
+ TBB
+# Source files and their labels
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/TBB
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/TBB.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/TBB-complete.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-build.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-configure.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-download.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-install.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-mkdir.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-patch.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-tbb2externals.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-update.rule

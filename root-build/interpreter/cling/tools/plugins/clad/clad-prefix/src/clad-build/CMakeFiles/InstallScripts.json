@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/interpreter/cling/tools/plugins/clad/clad-prefix/src/clad-build/cmake_install.cmake",
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/interpreter/cling/tools/plugins/clad/clad-prefix/src/clad-build/lib/cmake_install.cmake",
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/interpreter/cling/tools/plugins/clad/clad-prefix/src/clad-build/lib/Differentiator/cmake_install.cmake",
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/interpreter/cling/tools/plugins/clad/clad-prefix/src/clad-build/tools/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,24 @@
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD/src/XrdTls/XrdTlsSocket.cc:294:40: warning: variable 'ssler' may be uninitialized when used here [-Wconditional-uninitialized]
+  294 |            if (!aOK) *eWhy += Err2Text(ssler);
+      |                                        ^~~~~
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD/src/XrdTls/XrdTlsSocket.cc:257:13: note: initialize the variable 'ssler' to silence this warning
+  257 |    int ssler, rc;
+      |             ^
+      |              = 0
+1 warning generated.
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD/src/XrdSecztn/XrdSecProtocolztn.cc:654:16: warning: variable 'eTime' may be uninitialized when used here [-Wconditional-uninitialized]
+  654 |           {if (eTime < 0 && expiry > 0)
+      |                ^~~~~
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD/src/XrdSecztn/XrdSecProtocolztn.cc:649:21: note: initialize the variable 'eTime' to silence this warning
+  649 |    long long   eTime;
+      |                     ^
+      |                      = 0
+1 warning generated.
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD/src/XrdCl/XrdClClassicCopyJob.cc:2517:80: warning: variable 'nbXcpSources' may be uninitialized when used here [-Wconditional-uninitialized]
+ 2517 |       src.reset( new XRootDSourceXCp( &GetSource(), chunkSize, parallelChunks, nbXcpSources, blockSize ) );
+      |                                                                                ^~~~~~~~~~~~
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD/src/XrdCl/XrdClClassicCopyJob.cc:2443:29: note: initialize the variable 'nbXcpSources' to silence this warning
+ 2443 |     int32_t     nbXcpSources;
+      |                             ^
+      |                              = 0
+1 warning generated.

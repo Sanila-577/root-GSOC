@@ -1,0 +1,57 @@
+[  0%] Built target intrinsics_gen
+[ 87%] Built target cladDifferentiator
+[100%] Built target cladPlugin
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Timers.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Compatibility.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/PushForwardModeVisitor.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ThrustBuiltins.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/BuiltinDerivatives.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/STLBuiltins.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Version.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/KokkosBuiltins.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ParseDiffArgsTypes.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/DiffPlanner.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/StmtClone.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ReverseModeVisitorDirectionKinds.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/EstimationModel.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/CladUtils.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/DerivedFnCollector.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ReverseModeForwPassVisitor.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Matrix.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/BaseForwardModeVisitor.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/CladConfig.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Differentiator.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/DerivedFnInfo.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ArrayRef.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/VisitorBase.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/HessianModeVisitor.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/VectorPushForwardModeVisitor.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/FunctionTraits.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ErrorEstimator.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/MultiplexExternalRMVSource.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Array.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/VectorForwardModeVisitor.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/RestoreTracker.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Sins.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/DiffMode.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ReverseModeVisitor.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/DynamicGraph.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Tape.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/NumericalDiff.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ThrustDerivatives.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ExternalRMVSource.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/DerivativeBuilder.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/ArrayExpression.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/tools
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/tools/ClangPlugin.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/tools/ClangBackendPlugin.h
+-- Up-to-date: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include
+-- Up-to-date: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad
+-- Up-to-date: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/include/clad/Differentiator/Version.inc
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/etc/cling/plugins/lib/cmake/clad/AddClad.cmake

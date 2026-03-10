@@ -1,0 +1,16 @@
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/asin.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/atan.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/tanh.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/atan2.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/cos.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/exp.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/identity.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/inv.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/log.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/sincos.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/sin.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/sqrt.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/tan.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/vdtcore_common.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/vdtMath.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/libvdt.dylib

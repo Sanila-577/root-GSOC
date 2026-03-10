@@ -1,0 +1,11 @@
+-- verifying file...
+     file='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/graf2d/freetype/src/freetype-2.12.1.tar.gz'
+-- verifying file... done
+-- extracting...
+     src='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/graf2d/freetype/src/freetype-2.12.1.tar.gz'
+     dst='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/FREETYPE-prefix/src/FREETYPE'
+-- extracting... [tar xf]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

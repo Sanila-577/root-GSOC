@@ -1,0 +1,13 @@
+# Target labels
+ LZMA
+# Source files and their labels
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/LZMA
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/LZMA.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/LZMA-complete.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-build.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-configure.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-download.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-install.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-mkdir.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-patch.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-update.rule

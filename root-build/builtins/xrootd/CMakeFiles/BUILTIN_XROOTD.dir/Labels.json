@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/CMakeFiles/BUILTIN_XROOTD"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/CMakeFiles/BUILTIN_XROOTD.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/CMakeFiles/BUILTIN_XROOTD-complete.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD-stamp/BUILTIN_XROOTD-build.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD-stamp/BUILTIN_XROOTD-configure.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD-stamp/BUILTIN_XROOTD-download.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD-stamp/BUILTIN_XROOTD-install.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD-stamp/BUILTIN_XROOTD-mkdir.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD-stamp/BUILTIN_XROOTD-patch.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD-stamp/BUILTIN_XROOTD-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BUILTIN_XROOTD"
+		],
+		"name" : "BUILTIN_XROOTD"
+	}
+}

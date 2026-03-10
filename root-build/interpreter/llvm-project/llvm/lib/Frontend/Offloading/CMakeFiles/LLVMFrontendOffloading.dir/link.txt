@@ -1,0 +1,1 @@
+"/Library/Developer/CommandLineTools/usr/bin/libtool" -static -no_warning_for_no_symbols -o ../../libLLVMFrontendOffloading.a CMakeFiles/LLVMFrontendOffloading.dir/Utility.cpp.o CMakeFiles/LLVMFrontendOffloading.dir/OffloadWrapper.cpp.o

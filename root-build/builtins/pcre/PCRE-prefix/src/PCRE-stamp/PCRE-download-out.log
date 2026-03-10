@@ -1,0 +1,11 @@
+-- verifying file...
+     file='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/builtins/pcre/pcre-8.43.tar.bz2'
+-- verifying file... done
+-- extracting...
+     src='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/builtins/pcre/pcre-8.43.tar.bz2'
+     dst='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE'
+-- extracting... [tar xf]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

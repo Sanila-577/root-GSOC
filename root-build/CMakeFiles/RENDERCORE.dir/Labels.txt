@@ -1,0 +1,13 @@
+# Target labels
+ RENDERCORE
+# Source files and their labels
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/RENDERCORE
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/RENDERCORE.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/RENDERCORE-complete.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/RENDERCORE-prefix/src/RENDERCORE-stamp/RENDERCORE-build.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/RENDERCORE-prefix/src/RENDERCORE-stamp/RENDERCORE-configure.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/RENDERCORE-prefix/src/RENDERCORE-stamp/RENDERCORE-download.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/RENDERCORE-prefix/src/RENDERCORE-stamp/RENDERCORE-install.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/RENDERCORE-prefix/src/RENDERCORE-stamp/RENDERCORE-mkdir.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/RENDERCORE-prefix/src/RENDERCORE-stamp/RENDERCORE-patch.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/RENDERCORE-prefix/src/RENDERCORE-stamp/RENDERCORE-update.rule

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/LZMA"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/LZMA.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/LZMA-complete.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-build.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-configure.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-download.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-install.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-mkdir.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-patch.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/LZMA-prefix/src/LZMA-stamp/LZMA-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"LZMA"
+		],
+		"name" : "LZMA"
+	}
+}

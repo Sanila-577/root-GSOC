@@ -1,0 +1,13 @@
+# Target labels
+ AFTERIMAGE
+# Source files and their labels
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/AFTERIMAGE
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/AFTERIMAGE.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/AFTERIMAGE-complete.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-build.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-configure.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-download.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-install.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-mkdir.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-patch.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/AFTERIMAGE-prefix/src/AFTERIMAGE-stamp/AFTERIMAGE-update.rule

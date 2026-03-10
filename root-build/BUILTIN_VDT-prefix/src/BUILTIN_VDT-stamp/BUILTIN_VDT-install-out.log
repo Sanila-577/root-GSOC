@@ -1,0 +1,19 @@
+[100%] Built target vdt
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/asin.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/atan.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/tanh.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/atan2.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/cos.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/exp.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/identity.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/inv.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/log.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/sincos.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/sin.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/sqrt.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/tan.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/vdtcore_common.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include/vdt/vdtMath.h
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/libvdt.dylib

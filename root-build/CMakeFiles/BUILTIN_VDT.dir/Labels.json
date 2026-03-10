@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/BUILTIN_VDT"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/BUILTIN_VDT.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/BUILTIN_VDT-complete.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-build.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-configure.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-copy2externals.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-download.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-install.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-mkdir.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-patch.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BUILTIN_VDT"
+		],
+		"name" : "BUILTIN_VDT"
+	}
+}

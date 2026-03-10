@@ -1,0 +1,13 @@
+# Target labels
+ PCRE
+# Source files and their labels
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/CMakeFiles/PCRE
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/CMakeFiles/PCRE.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/CMakeFiles/PCRE-complete.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-build.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-configure.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-download.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-install.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-mkdir.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-patch.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-update.rule

@@ -1,0 +1,14 @@
+# Target labels
+ BUILTIN_VDT
+# Source files and their labels
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/BUILTIN_VDT
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/BUILTIN_VDT.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/BUILTIN_VDT-complete.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-build.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-configure.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-copy2externals.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-download.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-install.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-mkdir.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-patch.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT-stamp/BUILTIN_VDT-update.rule

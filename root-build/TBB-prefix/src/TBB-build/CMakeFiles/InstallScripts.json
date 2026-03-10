@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-build/cmake_install.cmake",
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-build/src/tbb/cmake_install.cmake",
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-build/cmake/post_install/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

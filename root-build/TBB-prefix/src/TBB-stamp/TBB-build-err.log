@@ -1,0 +1,9 @@
+In file included from /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB/src/tbb/private_server.cpp:21:
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB/src/tbb/rml_thread_monitor.h:215:12: warning: variable 'handle' may be uninitialized when used here [-Wconditional-uninitialized]
+  215 |     return handle;
+      |            ^~~~~~
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB/src/tbb/rml_thread_monitor.h:198:21: note: initialize the variable 'handle' to silence this warning
+  198 |     pthread_t handle;
+      |                     ^
+      |                      = nullptr
+1 warning generated.

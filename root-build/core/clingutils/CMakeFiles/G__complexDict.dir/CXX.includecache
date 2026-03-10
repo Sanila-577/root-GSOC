@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^[^.]+$|[.]h$|[.]icc$|[.]hxx$|[.]hpp$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/clingutils/inc/root_std_complex.h
+complex
+-
+
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/clingutils/src/complexLinkdef.h
+complex
+-
+root_std_complex.h
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/clingutils/src/root_std_complex.h
+

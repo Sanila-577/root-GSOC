@@ -1,0 +1,13 @@
+# Target labels
+ MATHJAX
+# Source files and their labels
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/MATHJAX
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/MATHJAX.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/MATHJAX-complete.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/MATHJAX-prefix/src/MATHJAX-stamp/MATHJAX-build.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/MATHJAX-prefix/src/MATHJAX-stamp/MATHJAX-configure.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/MATHJAX-prefix/src/MATHJAX-stamp/MATHJAX-download.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/MATHJAX-prefix/src/MATHJAX-stamp/MATHJAX-install.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/MATHJAX-prefix/src/MATHJAX-stamp/MATHJAX-mkdir.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/MATHJAX-prefix/src/MATHJAX-stamp/MATHJAX-patch.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/MATHJAX-prefix/src/MATHJAX-stamp/MATHJAX-update.rule

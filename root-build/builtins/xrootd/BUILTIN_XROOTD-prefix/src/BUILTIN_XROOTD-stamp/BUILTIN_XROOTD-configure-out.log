@@ -1,0 +1,90 @@
+-- The C compiler identification is AppleClang 17.0.0.17000603
+-- The CXX compiler identification is AppleClang 17.0.0.17000603
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for setresuid
+-- Looking for setresuid - not found
+-- Looking for strlcpy
+-- Looking for strlcpy - found
+-- Looking for fstatat
+-- Looking for fstatat - found
+-- Looking for sigwaitinfo
+-- Looking for sigwaitinfo - not found
+-- Looking for sigwaitinfo in rt
+-- Looking for sigwaitinfo in rt - not found
+-- Looking for shadow.h
+-- Looking for shadow.h - not found
+-- Looking for getifaddrs
+-- Looking for getifaddrs - found
+-- Looking for getnameinfo
+-- Looking for getnameinfo - found
+-- Looking for getprotobyname_r
+-- Looking for getprotobyname_r - not found
+-- Looking for getprotobyname_r in socket
+-- Looking for getprotobyname_r in socket - not found
+-- Looking for gethostbyaddr_r
+-- Looking for gethostbyaddr_r - not found
+-- Looking for gethostbyaddr_r in socket
+-- Looking for gethostbyaddr_r in socket - not found
+-- Looking for crypt
+-- Looking for crypt - found
+-- Looking for et/com_err.h
+-- Looking for et/com_err.h - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test HAVE_ATOMICS
+-- Performing Test HAVE_ATOMICS - Success
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd (found version "1.2.12")
+-- Looking for uuid_generate_random
+-- Looking for uuid_generate_random - found
+-- Found libuuid: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+-- Performing Test READLINE_OK
+-- Performing Test READLINE_OK - Success
+-- Found Readline: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libreadline.tbd
+-- Could NOT find TinyXml (missing: TINYXML_LIBRARIES TINYXML_INCLUDE_DIR) 
+-- Found LibXml2: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libxml2.tbd (found version "2.9.13")
+-- Could NOT find systemd (missing: SYSTEMD_INCLUDE_DIRS SYSTEMD_LIBRARIES) 
+-- Found OpenSSL: /opt/homebrew/lib/libcrypto.dylib (found suitable version "3.6.1", minimum required is "1.0.2")
+-- Found Kerberos5: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libkrb5.tbd;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcom_err.tbd
+-- Could NOT find isal (missing: ISAL_LIBRARY ISAL_INCLUDE_DIR) 
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- ----------------------------------------
+-- Installation path: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix
+-- C Compiler:        /usr/bin/cc
+-- C++ Compiler:      /usr/bin/c++
+-- Build type:        Release
+-- C Flags:            -m64 -pipe -W -Wall -fsigned-char -fno-common -Qunused-arguments -pthread
+-- C++ Flags:          -Wc++11-narrowing -Wsign-compare -Wsometimes-uninitialized -Wconditional-uninitialized -Wheader-guard -Warray-bounds -Wcomment -Wtautological-compare -Wstrncat-size -Wloop-analysis -Wbool-conversion -m64 -pipe -W -Wall -Woverloaded-virtual -fsigned-char -fsized-deallocation -fno-common -Qunused-arguments -pthread -stdlib=libc++ -Wno-deprecated-declarations
+-- Build Type Flags:  -O3 -DNDEBUG
+-- Plug-in version:   5
+-- 
+-- Ceph support:      disabled
+-- Readline support:  yes
+-- FUSE support:      libs not found
+-- Kerberos5 support: yes
+-- XrdCl:             yes
+-- XrdClHttp:         libs not found
+-- HTTP support:      yes
+-- HTTP TPC support:  libs not found
+-- VOMS support:      libs not found
+-- Python support:    disabled
+-- Erasure coding:    disabled
+-- Macaroons:         libs not found
+-- SciTokens:         libs not found
+-- Tests:             disabled
+-- Server Tests:      disabled
+-- ----------------------------------------
+-- Configuring done (17.5s)
+-- Generating done (0.5s)
+-- Build files have been written to: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/xrootd/BUILTIN_XROOTD-prefix/src/BUILTIN_XROOTD-build

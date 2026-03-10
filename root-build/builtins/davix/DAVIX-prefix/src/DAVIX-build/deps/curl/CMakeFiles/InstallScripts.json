@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/cmake_install.cmake",
+		"/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/lib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

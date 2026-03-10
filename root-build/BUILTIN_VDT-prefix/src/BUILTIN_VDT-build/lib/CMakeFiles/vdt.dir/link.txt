@@ -1,0 +1,1 @@
+/usr/bin/c++ -Winline -O3  -std=c++11     -W -Wall -Werror -Wno-error=unused-parameter  -D__extern_always_inline=inline -O3 -DNDEBUG -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libvdt.dylib -install_name @rpath/libvdt.dylib CMakeFiles/vdt.dir/__/src/vdtMath_signatures.cc.o

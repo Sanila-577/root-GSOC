@@ -1,0 +1,100 @@
+loading initial cache file /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/tmp/PCRE-cache-Release.cmake
+-- The C compiler identification is AppleClang 17.0.0.17000603
+-- The CXX compiler identification is AppleClang 17.0.0.17000603
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found BZip2: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libbz2.tbd (found version "1.0.8")
+-- Looking for BZ2_bzCompressInit
+-- Looking for BZ2_bzCompressInit - found
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd (found version "1.2.12")
+-- Found Readline: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+-- Could not find OPTIONAL package Editline
+-- Looking for dirent.h
+-- Looking for dirent.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for windows.h
+-- Looking for windows.h - not found
+-- Looking for C++ include type_traits.h
+-- Looking for C++ include type_traits.h - not found
+-- Looking for C++ include bits/type_traits.h
+-- Looking for C++ include bits/type_traits.h - not found
+-- Looking for bcopy
+-- Looking for bcopy - found
+-- Looking for memmove
+-- Looking for memmove - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for strtoq
+-- Looking for strtoq - found
+-- Looking for _strtoi64
+-- Looking for _strtoi64 - not found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- 
+-- 
+-- PCRE configuration summary:
+-- 
+--   Install prefix .................. : /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix
+--   C compiler ...................... : /usr/bin/cc
+--   C++ compiler .................... : /usr/bin/c++
+--   C compiler flags ................ : -O3 -DNDEBUG
+--   C++ compiler flags .............. : -O3 -DNDEBUG
+-- 
+--   Build 8 bit PCRE library ........ : ON
+--   Build 16 bit PCRE library ....... : OFF
+--   Build 32 bit PCRE library ....... : OFF
+--   Build C++ library ............... : ON
+--   Enable JIT compiling support .... : OFF
+--   Enable UTF support .............. : OFF
+--   Unicode properties .............. : OFF
+--   Newline char/sequence ........... : LF
+--   \R matches only ANYCRLF ......... : OFF
+--   EBCDIC coding ................... : OFF
+--   EBCDIC coding with NL=0x25 ...... : OFF
+--   Rebuild char tables ............. : OFF
+--   No stack recursion .............. : OFF
+--   POSIX mem threshold ............. : 10
+--   Internal link size .............. : 2
+--   Parentheses nest limit .......... : 250
+--   Match limit ..................... : 10000000
+--   Match limit recursion ........... : MATCH_LIMIT
+--   Build shared libs ............... : OFF
+--   Build static libs ............... : ON
+--   Build pcregrep .................. : ON
+--   Enable JIT in pcregrep .......... : ON
+--   Buffer size for pcregrep ........ : 20480
+--   Build tests (implies pcretest  .. : FALSE
+--                and pcregrep)
+--   Link pcregrep with libz ......... : ON
+--   Link pcregrep with libbz2 ....... : ON
+--   Link pcretest with libeditline .. : Library not found
+--   Link pcretest with libreadline .. : ON
+--   Support Valgrind .................: OFF
+--   Support coverage .................: 
+-- 
+-- Configuring done (17.3s)
+-- Generating done (0.2s)
+-- Build files have been written to: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-build

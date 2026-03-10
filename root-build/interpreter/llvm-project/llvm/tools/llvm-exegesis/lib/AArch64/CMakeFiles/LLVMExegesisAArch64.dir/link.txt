@@ -1,0 +1,1 @@
+"/Library/Developer/CommandLineTools/usr/bin/libtool" -static -no_warning_for_no_symbols -o ../../../../lib/libLLVMExegesisAArch64.a CMakeFiles/LLVMExegesisAArch64.dir/Target.cpp.o

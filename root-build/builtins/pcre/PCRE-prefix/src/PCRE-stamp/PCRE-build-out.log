@@ -1,0 +1,23 @@
+[  4%] Building C object CMakeFiles/pcre.dir/pcre_byte_order.c.o
+[ 13%] Building C object CMakeFiles/pcre.dir/pcre_chartables.c.o
+[ 13%] Building C object CMakeFiles/pcre.dir/pcre_compile.c.o
+[ 18%] Building C object CMakeFiles/pcre.dir/pcre_config.c.o
+[ 22%] Building C object CMakeFiles/pcre.dir/pcre_dfa_exec.c.o
+[ 27%] Building C object CMakeFiles/pcre.dir/pcre_fullinfo.c.o
+[ 36%] Building C object CMakeFiles/pcre.dir/pcre_get.c.o
+[ 36%] Building C object CMakeFiles/pcre.dir/pcre_exec.c.o
+[ 40%] Building C object CMakeFiles/pcre.dir/pcre_globals.c.o
+[ 45%] Building C object CMakeFiles/pcre.dir/pcre_jit_compile.c.o
+[ 50%] Building C object CMakeFiles/pcre.dir/pcre_maketables.c.o
+[ 54%] Building C object CMakeFiles/pcre.dir/pcre_refcount.c.o
+[ 59%] Building C object CMakeFiles/pcre.dir/pcre_newline.c.o
+[ 63%] Building C object CMakeFiles/pcre.dir/pcre_ord2utf8.c.o
+[ 68%] Building C object CMakeFiles/pcre.dir/pcre_study.c.o
+[ 72%] Building C object CMakeFiles/pcre.dir/pcre_tables.c.o
+[ 77%] Building C object CMakeFiles/pcre.dir/pcre_string_utils.c.o
+[ 81%] Building C object CMakeFiles/pcre.dir/pcre_ucd.c.o
+[ 86%] Building C object CMakeFiles/pcre.dir/pcre_valid_utf8.c.o
+[ 90%] Building C object CMakeFiles/pcre.dir/pcre_version.c.o
+[ 95%] Building C object CMakeFiles/pcre.dir/pcre_xclass.c.o
+[100%] Linking C static library libpcre.a
+[100%] Built target pcre

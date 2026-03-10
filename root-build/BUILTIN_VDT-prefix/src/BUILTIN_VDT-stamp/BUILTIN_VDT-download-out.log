@@ -1,0 +1,20 @@
+-- Downloading...
+   dst='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/vdt-0.4.6.tar.gz'
+   timeout='600 seconds'
+   inactivity timeout='none'
+-- Using src='http://lcgpackages.web.cern.ch/lcgpackages/tarFiles/sources/vdt-0.4.6.tar.gz'
+-- [download 100% complete]
+-- [download 22% complete]
+-- [download 76% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/vdt-0.4.6.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/vdt-0.4.6.tar.gz'
+     dst='/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/BUILTIN_VDT-prefix/src/BUILTIN_VDT'
+-- extracting... [tar xf]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

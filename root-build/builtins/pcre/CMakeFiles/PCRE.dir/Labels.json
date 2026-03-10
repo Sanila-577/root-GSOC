@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/CMakeFiles/PCRE"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/CMakeFiles/PCRE.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/CMakeFiles/PCRE-complete.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-build.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-configure.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-download.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-install.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-mkdir.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-patch.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/pcre/PCRE-prefix/src/PCRE-stamp/PCRE-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PCRE"
+		],
+		"name" : "PCRE"
+	}
+}

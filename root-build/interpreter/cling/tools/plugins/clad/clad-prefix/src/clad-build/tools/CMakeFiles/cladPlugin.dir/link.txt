@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libcladPlugin.a CMakeFiles/cladPlugin.dir/ClangPlugin.cpp.o CMakeFiles/cladPlugin.dir/ClangBackendPlugin.cpp.o CMakeFiles/cladPlugin.dir/RequiredSymbols.cpp.o
+/usr/bin/ranlib ../lib/libcladPlugin.a

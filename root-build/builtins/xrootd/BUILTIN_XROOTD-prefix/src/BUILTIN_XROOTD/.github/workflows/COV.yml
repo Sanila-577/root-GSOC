@@ -1,0 +1,64 @@
+name: COV
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+      - master
+      - coverage
+    paths:
+      - .github/workflows/COV.yml
+      - 'src/**'
+      - 'tests/**'
+    tags-ignore:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  CDASH: ${{ vars.CDASH }}
+  CTEST_OUTPUT_ON_FAILURE: true
+  DEBIAN_FRONTEND: noninteractive
+
+jobs:
+  coverage:
+    name: Coverage Report
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Install dependencies
+      run: |
+        sudo apt update -q
+        sudo apt install -y devscripts equivs git
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Install XRootD build dependencies
+      run: mk-build-deps --install --remove -s sudo debian/control <<< yes
+
+    - name: Build and Test with CTest
+      run: ctest -C Debug -DCOVERAGE=1 --output-junit junit.xml -V -S test.cmake
+
+    - if: ${{ vars.CODECOV == 'true' }}
+      name: Upload test results to Codecov
+      uses: codecov/test-results-action@v1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+
+    - if: ${{ vars.CODECOV == 'true' }}
+      name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v4
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}

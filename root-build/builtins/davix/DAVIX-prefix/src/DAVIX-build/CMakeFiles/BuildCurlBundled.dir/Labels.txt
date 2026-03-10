@@ -1,0 +1,13 @@
+# Target labels
+ BuildCurlBundled
+# Source files and their labels
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/CMakeFiles/BuildCurlBundled
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/CMakeFiles/BuildCurlBundled.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/CMakeFiles/BuildCurlBundled-complete.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/src/BuildCurlBundled-stamp/BuildCurlBundled-build.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/src/BuildCurlBundled-stamp/BuildCurlBundled-configure.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/src/BuildCurlBundled-stamp/BuildCurlBundled-download.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/src/BuildCurlBundled-stamp/BuildCurlBundled-install.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/src/BuildCurlBundled-stamp/BuildCurlBundled-mkdir.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/src/BuildCurlBundled-stamp/BuildCurlBundled-patch.rule
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-build/deps/curl/src/BuildCurlBundled-stamp/BuildCurlBundled-update.rule

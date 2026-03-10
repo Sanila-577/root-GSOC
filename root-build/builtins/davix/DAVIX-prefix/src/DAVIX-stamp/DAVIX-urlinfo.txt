@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-stamp/download-DAVIX.cmake;COMMAND;/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-stamp/verify-DAVIX.cmake;COMMAND;/opt/homebrew/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX-stamp/extract-DAVIX.cmake
+source_dir=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src/DAVIX
+work_dir=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/builtins/davix/DAVIX-prefix/src
+url(s)=http://lcgpackages.web.cern.ch/lcgpackages/tarFiles/sources/davix-0.8.7p1.tar.gz
+hash=SHA256=d4eee9f20aa032893ce488273cc0bfb62bcad8e2a1afa6b260130508eaf3ce54
+      no_extract=
+

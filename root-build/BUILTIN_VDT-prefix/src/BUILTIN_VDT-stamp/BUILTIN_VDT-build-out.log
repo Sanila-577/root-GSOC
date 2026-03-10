@@ -1,0 +1,3 @@
+[ 50%] Building CXX object lib/CMakeFiles/vdt.dir/__/src/vdtMath_signatures.cc.o
+[100%] Linking CXX shared library libvdt.dylib
+[100%] Built target vdt

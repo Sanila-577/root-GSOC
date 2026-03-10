@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/TBB"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/TBB.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles/TBB-complete.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-build.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-configure.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-download.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-install.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-mkdir.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-patch.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-tbb2externals.rule"
+		},
+		{
+			"file" : "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/TBB-prefix/src/TBB-stamp/TBB-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TBB"
+		],
+		"name" : "TBB"
+	}
+}

@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "../bin/rootnb.exe"
+  "../bin/rootnb.exe.pdb"
+  "CMakeFiles/rootnb.exe.dir/src/nbmain.cxx.o"
+  "CMakeFiles/rootnb.exe.dir/src/nbmain.cxx.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rootnb.exe.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

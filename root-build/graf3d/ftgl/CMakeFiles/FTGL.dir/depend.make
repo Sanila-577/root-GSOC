@@ -1,0 +1,2 @@
+# Empty dependencies file for FTGL.
+# This may be replaced when dependencies are built.

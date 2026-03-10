@@ -1,0 +1,223 @@
+[ 50%] Built target XrdUtils
+[ 51%] Built target XrdCksCalczcrc32-5
+[ 52%] Built target XrdN2No2p-5
+[ 53%] Built target XrdSeckrb5-5
+[ 54%] Built target XrdSecztn-5
+[ 55%] Built target XrdSecProt-5
+[ 56%] Built target XrdSecunix-5
+[ 56%] Built target XrdSecgsiAUTHZVO-5
+[ 59%] Built target XrdXml
+[ 60%] Built target XrdCryptoLite
+[ 61%] Built target XrdSecgsiGMAPDN-5
+[ 63%] Built target XrdSec-5
+[ 64%] Built target XrdAppUtils
+[ 69%] Built target XrdCrypto
+[ 70%] Built target XrdSecsss-5
+[ 71%] Built target XrdSecgsi-5
+[ 71%] Built target XrdSecpwd-5
+[ 74%] Built target XrdCryptossl-5
+[ 90%] Built target XrdCl
+[ 91%] Built target xrdreplay
+[ 92%] Built target XrdClRecorder-5
+[ 93%] Built target XrdClProxyPlugin-5
+[ 98%] Built target XrdPosix
+[100%] Built target XrdPosixPreload
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdVersion.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XProtocol/XProtocol.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XProtocol/XPtypes.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/Xrd/XrdBuffer.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/Xrd/XrdJob.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/Xrd/XrdLink.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/Xrd/XrdLinkMatch.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/Xrd/XrdProtocol.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/Xrd/XrdScheduler.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/Xrd/XrdTcpMonPin.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNet.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetAddr.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetAddrInfo.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetUtils.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetCmsNotify.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetConnect.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetOpts.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetPMark.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetSockAddr.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdNet/XrdNetSocket.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucBuffer.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucCRC.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucCache.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucCacheCM.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucCacheStats.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucCallBack.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucChain.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucDLlist.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucEnv.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucErrInfo.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucGatherConf.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucGMap.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucHash.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucHash.icc
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucIOVec.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucLock.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucName2Name.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucPinPath.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucPinObject.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucRash.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucRash.icc
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucSFVec.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucStream.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucString.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucTList.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucTable.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucTokenizer.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucTrace.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucUtils.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOuca2x.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucEnum.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdOuc/XrdOucCompiler.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdPosix/XrdPosix.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdPosix/XrdPosixCache.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdPosix/XrdPosixCallBack.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdPosix/XrdPosixExtern.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdPosix/XrdPosixOsDep.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdPosix/XrdPosixXrootd.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdPosix/XrdPosixXrootdPath.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSec/XrdSecAttr.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSec/XrdSecEntity.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSec/XrdSecEntityAttr.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSec/XrdSecEntityPin.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSec/XrdSecInterface.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysAtomics.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysError.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysFD.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysHeaders.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysLogger.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysLogPI.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysPageSize.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysPlatform.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysPlugin.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysPthread.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysSemWait.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysTimer.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysXAttr.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdSys/XrdSysXSLock.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdXml/XrdXmlReader.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdXrootd/XrdXrootdRedirPI.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdXrootd/XrdXrootdMonData.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdXrootd/XrdXrootdGStream.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdXrootd/XrdXrootdBridge.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdHttp/XrdHttpSecXtractor.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/Xrd/XrdPoll.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/Xrd/XrdSendQ.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdNet/XrdNetPeer.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdNet/XrdNetBuffer.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdNet/XrdNetIF.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdSecsss/XrdSecsssID.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdSys/XrdSysPriv.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdOuc/XrdOucCRC32C.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdOuc/XrdOucExport.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdOuc/XrdOucGatherConf.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdOuc/XrdOucPList.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdOuc/XrdOucN2NLoader.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdOuc/XrdOucPinLoader.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdOuc/XrdOucTUtils.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdOuc/XrdOucPrivateUtils.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdPosix/XrdPosixMap.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdZip/XrdZipCDFH.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdZip/XrdZipDataDescriptor.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdZip/XrdZipEOCD.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdZip/XrdZipExtra.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdZip/XrdZipLFH.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdZip/XrdZipUtils.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdZip/XrdZipZIP64EOCD.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdZip/XrdZipZIP64EOCDL.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdUtils.3.0.0.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdUtils.3.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdUtils.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCksCalczcrc32-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdN2No2p-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/bin/xrdreplay
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdAppUtils.2.0.0.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdAppUtils.2.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdAppUtils.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdClProxyPlugin-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdClRecorder-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCrypto.2.0.0.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCrypto.2.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCrypto.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCryptoLite.2.0.0.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCryptoLite.2.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCryptoLite.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCryptossl-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdPosix.3.0.0.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdPosix.3.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdPosix.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdPosixPreload.2.0.0.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdPosixPreload.2.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdPosixPreload.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSec-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSecProt-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSecgsi-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSecgsiAUTHZVO-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSecgsiGMAPDN-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSeckrb5-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSecpwd-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSecsss-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSecunix-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdSecztn-5.so
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdXml.3.0.0.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdXml.3.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdXml.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClAnyObject.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClBuffer.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClConstants.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClCopyProcess.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClDefaultEnv.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClEnv.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClFile.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClFileSystem.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClFileSystemUtils.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClMonitor.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClStatus.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClURL.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClXRootDResponses.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClOptional.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClPlugInInterface.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClPropertyList.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/XrdCl/XrdClLog.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClJobManager.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClMessage.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClPlugInManager.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClPostMaster.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClPostMasterInterfaces.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClTransportManager.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClResponseJob.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClSyncQueue.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClZipArchive.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClZipCache.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClOperations.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClOperationHandlers.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClOperationTimeout.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClArg.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClCtx.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClFwd.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClParallelOperation.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClFileOperations.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClFileSystemOperations.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClFinalOperation.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClUtils.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClXRootDTransport.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd/private/XrdCl/XrdClZipOperations.hh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCl.3.0.0.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCl.3.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCl.dylib
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/share/xrootd/utils/XrdCmsNotify.pm
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/share/xrootd/utils/netchk
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/share/xrootd/utils/XrdOlbMonPerf
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/share/xrootd/utils/cms_monPerf
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/share/xrootd/utils/xrdcp-tpc.sh
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/cmake/XRootD
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/cmake/XRootD/XRootDConfig.cmake
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/cmake/XRootD/uninstall.cmake
+-- Installing: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/cmake/XRootD/XRootDConfigVersion.cmake

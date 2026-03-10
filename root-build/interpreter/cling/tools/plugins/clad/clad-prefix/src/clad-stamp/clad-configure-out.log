@@ -1,0 +1,45 @@
+-- The C compiler identification is AppleClang 17.0.0.17000603
+-- The CXX compiler identification is AppleClang 17.0.0.17000603
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for histedit.h
+-- Looking for histedit.h - found
+-- Found LibEdit: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include (found version "2.11")
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd (found version "1.2.12")
+-- Found LibXml2: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libxml2.tbd (found version "2.9.13")
+-- Found supported version: LLVM 20.1.8
+-- Using LLVMConfig.cmake in: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/interpreter/llvm-project/llvm/lib/cmake/llvm
+-- Found supported version: Clang 20.1.8
+-- Using ClangConfig.cmake in: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/cmake/clang/
+-- Linker detection: Apple
+-- Performing Test LLVM_LINKER_SUPPORTS_NO_EXPORTED_SYMBOLS
+-- Performing Test LLVM_LINKER_SUPPORTS_NO_EXPORTED_SYMBOLS - Success
+-- Performing Test LLVM_LINKER_SUPPORTS_NO_WARN_DUPLICATE_LIBRARIES
+-- Performing Test LLVM_LINKER_SUPPORTS_NO_WARN_DUPLICATE_LIBRARIES - Success
+-- Performing Test C_SUPPORTS_FPIC
+-- Performing Test C_SUPPORTS_FPIC - Success
+-- Performing Test CXX_SUPPORTS_FPIC
+-- Performing Test CXX_SUPPORTS_FPIC - Success
+-- Building with -fPIC
+-- Performing Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION
+-- Performing Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION - Success
+-- Performing Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION
+-- Performing Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION - Success
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG
+-- Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG - Success
+-- Looking for os_signpost_interval_begin
+-- Looking for os_signpost_interval_begin - found
+-- Performing Test macos_signposts_usable
+-- Performing Test macos_signposts_usable - Success
+-- Found Git: /usr/bin/git (found version "2.50.1 (Apple Git-155)")
+-- Configuring done (3.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/interpreter/cling/tools/plugins/clad/clad-prefix/src/clad-build
