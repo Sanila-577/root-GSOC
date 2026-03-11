@@ -1557,7 +1557,6 @@ lib/libGui.so: lib/libROOTNTupleBrowse.so
 lib/libGui.so: lib/libROOTNTupleUtil.so
 lib/libGui.so: lib/libROOTNTuple.so
 lib/libGui.so: lib/libROOTVecOps.so
-lib/libGui.so: lib/libvdt.dylib
 lib/libGui.so: lib/libTree.so
 lib/libGui.so: lib/libROOTTreeMap.so
 lib/libGui.so: lib/libGpad.so

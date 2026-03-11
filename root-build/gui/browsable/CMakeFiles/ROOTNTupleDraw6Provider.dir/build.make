@@ -103,7 +103,6 @@ lib/libROOTNTupleDraw6Provider.so: lib/libGraf.so
 lib/libROOTNTupleDraw6Provider.so: lib/libROOTNTupleUtil.so
 lib/libROOTNTupleDraw6Provider.so: lib/libROOTNTuple.so
 lib/libROOTNTupleDraw6Provider.so: lib/libROOTVecOps.so
-lib/libROOTNTupleDraw6Provider.so: lib/libvdt.dylib
 lib/libROOTNTupleDraw6Provider.so: lib/libHist.so
 lib/libROOTNTupleDraw6Provider.so: lib/libMatrix.so
 lib/libROOTNTupleDraw6Provider.so: lib/libTree.so

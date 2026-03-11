@@ -733,7 +733,6 @@ lib/libROOTDataFrame.so: lib/libHist.so
 lib/libROOTDataFrame.so: lib/libMatrix.so
 lib/libROOTDataFrame.so: lib/libMathCore.so
 lib/libROOTDataFrame.so: lib/libROOTVecOps.so
-lib/libROOTDataFrame.so: lib/libvdt.dylib
 lib/libROOTDataFrame.so: lib/libImt.so
 lib/libROOTDataFrame.so: lib/libMultiProc.so
 lib/libROOTDataFrame.so: lib/libNet.so

@@ -104,7 +104,6 @@ lib/libROOTNTupleDraw7Provider.so: lib/libGraf.so
 lib/libROOTNTupleDraw7Provider.so: lib/libROOTNTupleUtil.so
 lib/libROOTNTupleDraw7Provider.so: lib/libROOTNTuple.so
 lib/libROOTNTupleDraw7Provider.so: lib/libROOTVecOps.so
-lib/libROOTNTupleDraw7Provider.so: lib/libvdt.dylib
 lib/libROOTNTupleDraw7Provider.so: lib/libHist.so
 lib/libROOTNTupleDraw7Provider.so: lib/libMatrix.so
 lib/libROOTNTupleDraw7Provider.so: lib/libTree.so

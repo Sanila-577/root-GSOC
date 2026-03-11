@@ -148,9 +148,9 @@ lib/libNetxNG.so: net/netxng/CMakeFiles/NetxNG.dir/build.make
 lib/libNetxNG.so: lib/libNet.so
 lib/libNetxNG.so: lib/libRIO.so
 lib/libNetxNG.so: lib/libThread.so
+lib/libNetxNG.so: lib/libCore.so
 lib/libNetxNG.so: XROOTD-prefix/lib/libXrdCl.dylib
 lib/libNetxNG.so: XROOTD-prefix/lib/libXrdUtils.dylib
-lib/libNetxNG.so: lib/libCore.so
 lib/libNetxNG.so: net/netxng/CMakeFiles/NetxNG.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../lib/libNetxNG.so"
 	cd /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/net/netxng && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NetxNG.dir/link.txt --verbose=$(VERBOSE)

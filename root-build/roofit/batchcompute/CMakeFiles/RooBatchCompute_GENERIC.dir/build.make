@@ -112,7 +112,6 @@ lib/libRooBatchCompute_GENERIC.so: roofit/batchcompute/CMakeFiles/RooBatchComput
 lib/libRooBatchCompute_GENERIC.so: roofit/batchcompute/CMakeFiles/RooBatchCompute_GENERIC.dir/src/ComputeFunctions.cxx.o
 lib/libRooBatchCompute_GENERIC.so: roofit/batchcompute/CMakeFiles/RooBatchCompute_GENERIC.dir/build.make
 lib/libRooBatchCompute_GENERIC.so: lib/libRooBatchCompute.so
-lib/libRooBatchCompute_GENERIC.so: lib/libvdt.dylib
 lib/libRooBatchCompute_GENERIC.so: lib/libMathCore.so
 lib/libRooBatchCompute_GENERIC.so: lib/libCore.so
 lib/libRooBatchCompute_GENERIC.so: roofit/batchcompute/CMakeFiles/RooBatchCompute_GENERIC.dir/link.txt

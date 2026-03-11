@@ -633,7 +633,6 @@ lib/libROOTNTuple.so: lib/libNet.so
 lib/libROOTNTuple.so: lib/libRIO.so
 lib/libROOTNTuple.so: lib/libThread.so
 lib/libROOTNTuple.so: lib/libCore.so
-lib/libROOTNTuple.so: lib/libvdt.dylib
 lib/libROOTNTuple.so: tree/ntuple/CMakeFiles/ROOTNTuple.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX shared library ../../lib/libROOTNTuple.so"
 	cd /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/tree/ntuple && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ROOTNTuple.dir/link.txt --verbose=$(VERBOSE)

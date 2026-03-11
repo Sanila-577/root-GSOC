@@ -107,7 +107,7 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"LLVMAArch64AsmParser\" \"LLVMAArch64CodeGen\" \"LLVMAArch64Desc\" \"LLVMAArch64Disassembler\" \"LLVMAArch64Info\" \"LLVMAArch64Utils\" \"LLVMAggressiveInstCombine\" \"LLVMAnalysis\" \"LLVMAsmParser\" \"LLVMAsmPrinter\" \"LLVMBinaryFormat\" \"LLVMBitReader\" \"LLVMBitWriter\" \"LLVMBitstreamReader\" \"LLVMCFGuard\" \"LLVMCFIVerify\" \"LLVMCGData\" \"LLVMCodeGen\" \"LLVMCodeGenTypes\" \"LLVMCore\" \"LLVMCoroutines\" \"LLVMCoverage\" \"LLVMDWARFLinker\" \"LLVMDWARFLinkerClassic\" \"LLVMDWARFLinkerParallel\" \"LLVMDWP\" \"LLVMDebugInfoBTF\" \"LLVMDebugInfoCodeView\" \"LLVMDebugInfoDWARF\" \"LLVMDebugInfoGSYM\" \"LLVMDebugInfoLogicalView\" \"LLVMDebugInfoMSF\" \"LLVMDebugInfoPDB\" \"LLVMDebuginfod\" \"LLVMDemangle\" \"LLVMDiff\" \"LLVMDlltoolDriver\" \"LLVMExecutionEngine\" \"LLVMExegesis\" \"LLVMExegesisAArch64\" \"LLVMExtensions\" \"LLVMFileCheck\" \"LLVMFrontendAtomic\" \"LLVMFrontendDriver\" \"LLVMFrontendHLSL\" \"LLVMFrontendOffloading\" \"LLVMFrontendOpenACC\" \"LLVMFrontendOpenMP\" \"LLVMFuzzMutate\" \"LLVMFuzzerCLI\" \"LLVMGlobalISel\" \"LLVMHipStdPar\" \"LLVMIRPrinter\" \"LLVMIRReader\" \"LLVMInstCombine\" \"LLVMInstrumentation\" \"LLVMInterfaceStub\" \"LLVMInterpreter\" \"LLVMJITLink\" \"LLVMLTO\" \"LLVMLibDriver\" \"LLVMLineEditor\" \"LLVMLinker\" \"LLVMMC\" \"LLVMMCA\" \"LLVMMCDisassembler\" \"LLVMMCJIT\" \"LLVMMCParser\" \"LLVMMIRParser\" \"LLVMObjCARCOpts\" \"LLVMObjCopy\" \"LLVMObject\" \"LLVMObjectYAML\" \"LLVMOptDriver\" \"LLVMOption\" \"LLVMOrcDebugging\" \"LLVMOrcJIT\" \"LLVMOrcShared\" \"LLVMOrcTargetProcess\" \"LLVMPasses\" \"LLVMProfileData\" \"LLVMRemarks\" \"LLVMRuntimeDyld\" \"LLVMSandboxIR\" \"LLVMScalarOpts\" \"LLVMSelectionDAG\" \"LLVMSupport\" \"LLVMSymbolize\" \"LLVMTableGen\" \"LLVMTableGenBasic\" \"LLVMTableGenCommon\" \"LLVMTarget\" \"LLVMTargetParser\" \"LLVMTelemetry\" \"LLVMTextAPI\" \"LLVMTextAPIBinaryReader\" \"LLVMTransformUtils\" \"LLVMVectorize\" \"LLVMWindowsDriver\" \"LLVMWindowsManifest\" \"LLVMXRay\" \"LLVMipo\" \"LTO\" \"Remarks\" \"Unspecified\" \"aarch64-resource-headers\" \"applications\" \"arm-common-resource-headers\" \"arm-resource-headers\" \"bash-autocomplete\" \"clang\" \"clang-cmake-exports\" \"clang-cpp\" \"clang-headers\" \"clang-resource-headers\" \"clang-tblgen\" \"clangAPINotes\" \"clangAST\" \"clangASTMatchers\" \"clangAnalysis\" \"clangAnalysisFlowSensitive\" \"clangAnalysisFlowSensitiveModels\" \"clangBasic\" \"clangCodeGen\" \"clangCrossTU\" \"clangDependencyScanning\" \"clangDirectoryWatcher\" \"clangDriver\" \"clangDynamicASTMatchers\" \"clangEdit\" \"clangExtractAPI\" \"clangFormat\" \"clangFrontend\" \"clangFrontendTool\" \"clangIndex\" \"clangIndexSerialization\" \"clangInstallAPI\" \"clangInterpreter\" \"clangLex\" \"clangParse\" \"clangRewrite\" \"clangRewriteFrontend\" \"clangSema\" \"clangSerialization\" \"clangStaticAnalyzerCheckers\" \"clangStaticAnalyzerCore\" \"clangStaticAnalyzerFrontend\" \"clangSupport\" \"clangTooling\" \"clangToolingASTDiff\" \"clangToolingCore\" \"clangToolingInclusions\" \"clangToolingInclusionsStdlib\" \"clangToolingRefactoring\" \"clangToolingSyntax\" \"clangTransformer\" \"cling-cmake-exports\" \"clingDemoPlugin\" \"clingInterpreter\" \"clingMetaProcessor\" \"clingUtils\" \"cmake-exports\" \"core-resource-headers\" \"cuda-resource-headers\" \"extra-headers\" \"gpu-resource-headers\" \"headers\" \"hexagon-resource-headers\" \"hip-resource-headers\" \"hlsl-resource-headers\" \"hmaptool\" \"libraries\" \"llvm-headers\" \"llvm-tblgen\" \"loongarch-resource-headers\" \"mips-resource-headers\" \"opencl-resource-headers\" \"openmp-resource-headers\" \"opt-viewer\" \"ppc-htm-resource-headers\" \"ppc-resource-headers\" \"riscv-resource-headers\" \"systemz-resource-headers\" \"tests\" \"utility-resource-headers\" \"ve-resource-headers\" \"webassembly-resource-headers\" \"windows-resource-headers\" \"x86-resource-headers\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"LLVMAArch64AsmParser\" \"LLVMAArch64CodeGen\" \"LLVMAArch64Desc\" \"LLVMAArch64Disassembler\" \"LLVMAArch64Info\" \"LLVMAArch64Utils\" \"LLVMAggressiveInstCombine\" \"LLVMAnalysis\" \"LLVMAsmParser\" \"LLVMAsmPrinter\" \"LLVMBinaryFormat\" \"LLVMBitReader\" \"LLVMBitWriter\" \"LLVMBitstreamReader\" \"LLVMCFGuard\" \"LLVMCFIVerify\" \"LLVMCGData\" \"LLVMCodeGen\" \"LLVMCodeGenTypes\" \"LLVMCore\" \"LLVMCoroutines\" \"LLVMCoverage\" \"LLVMDWARFLinker\" \"LLVMDWARFLinkerClassic\" \"LLVMDWARFLinkerParallel\" \"LLVMDWP\" \"LLVMDebugInfoBTF\" \"LLVMDebugInfoCodeView\" \"LLVMDebugInfoDWARF\" \"LLVMDebugInfoGSYM\" \"LLVMDebugInfoLogicalView\" \"LLVMDebugInfoMSF\" \"LLVMDebugInfoPDB\" \"LLVMDebuginfod\" \"LLVMDemangle\" \"LLVMDiff\" \"LLVMDlltoolDriver\" \"LLVMExecutionEngine\" \"LLVMExegesis\" \"LLVMExegesisAArch64\" \"LLVMExtensions\" \"LLVMFileCheck\" \"LLVMFrontendAtomic\" \"LLVMFrontendDriver\" \"LLVMFrontendHLSL\" \"LLVMFrontendOffloading\" \"LLVMFrontendOpenACC\" \"LLVMFrontendOpenMP\" \"LLVMFuzzMutate\" \"LLVMFuzzerCLI\" \"LLVMGlobalISel\" \"LLVMHipStdPar\" \"LLVMIRPrinter\" \"LLVMIRReader\" \"LLVMInstCombine\" \"LLVMInstrumentation\" \"LLVMInterfaceStub\" \"LLVMInterpreter\" \"LLVMJITLink\" \"LLVMLTO\" \"LLVMLibDriver\" \"LLVMLineEditor\" \"LLVMLinker\" \"LLVMMC\" \"LLVMMCA\" \"LLVMMCDisassembler\" \"LLVMMCJIT\" \"LLVMMCParser\" \"LLVMMIRParser\" \"LLVMObjCARCOpts\" \"LLVMObjCopy\" \"LLVMObject\" \"LLVMObjectYAML\" \"LLVMOptDriver\" \"LLVMOption\" \"LLVMOrcDebugging\" \"LLVMOrcJIT\" \"LLVMOrcShared\" \"LLVMOrcTargetProcess\" \"LLVMPasses\" \"LLVMProfileData\" \"LLVMRemarks\" \"LLVMRuntimeDyld\" \"LLVMSandboxIR\" \"LLVMScalarOpts\" \"LLVMSelectionDAG\" \"LLVMSupport\" \"LLVMSymbolize\" \"LLVMTableGen\" \"LLVMTableGenBasic\" \"LLVMTableGenCommon\" \"LLVMTarget\" \"LLVMTargetParser\" \"LLVMTelemetry\" \"LLVMTextAPI\" \"LLVMTextAPIBinaryReader\" \"LLVMTransformUtils\" \"LLVMVectorize\" \"LLVMWindowsDriver\" \"LLVMWindowsManifest\" \"LLVMXRay\" \"LLVMipo\" \"LTO\" \"Remarks\" \"Unspecified\" \"aarch64-resource-headers\" \"applications\" \"arm-common-resource-headers\" \"arm-resource-headers\" \"bash-autocomplete\" \"clang\" \"clang-cmake-exports\" \"clang-cpp\" \"clang-headers\" \"clang-resource-headers\" \"clang-tblgen\" \"clangAPINotes\" \"clangAST\" \"clangASTMatchers\" \"clangAnalysis\" \"clangAnalysisFlowSensitive\" \"clangAnalysisFlowSensitiveModels\" \"clangBasic\" \"clangCodeGen\" \"clangCrossTU\" \"clangDependencyScanning\" \"clangDirectoryWatcher\" \"clangDriver\" \"clangDynamicASTMatchers\" \"clangEdit\" \"clangExtractAPI\" \"clangFormat\" \"clangFrontend\" \"clangFrontendTool\" \"clangIndex\" \"clangIndexSerialization\" \"clangInstallAPI\" \"clangInterpreter\" \"clangLex\" \"clangParse\" \"clangRewrite\" \"clangRewriteFrontend\" \"clangSema\" \"clangSerialization\" \"clangStaticAnalyzerCheckers\" \"clangStaticAnalyzerCore\" \"clangStaticAnalyzerFrontend\" \"clangSupport\" \"clangTooling\" \"clangToolingASTDiff\" \"clangToolingCore\" \"clangToolingInclusions\" \"clangToolingInclusionsStdlib\" \"clangToolingRefactoring\" \"clangToolingSyntax\" \"clangTransformer\" \"cling-cmake-exports\" \"clingDemoPlugin\" \"clingInterpreter\" \"clingMetaProcessor\" \"clingUtils\" \"cmake-exports\" \"core-resource-headers\" \"cuda-resource-headers\" \"gpu-resource-headers\" \"headers\" \"hexagon-resource-headers\" \"hip-resource-headers\" \"hlsl-resource-headers\" \"hmaptool\" \"libraries\" \"llvm-headers\" \"llvm-tblgen\" \"loongarch-resource-headers\" \"mips-resource-headers\" \"opencl-resource-headers\" \"openmp-resource-headers\" \"opt-viewer\" \"ppc-htm-resource-headers\" \"ppc-resource-headers\" \"riscv-resource-headers\" \"systemz-resource-headers\" \"tests\" \"utility-resource-headers\" \"ve-resource-headers\" \"webassembly-resource-headers\" \"windows-resource-headers\" \"x86-resource-headers\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -195,19 +195,6 @@ FREETYPE/fast:
 .PHONY : FREETYPE/fast
 
 #=============================================================================
-# Target rules for targets named LZMA
-
-# Build rule for target.
-LZMA: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LZMA
-.PHONY : LZMA
-
-# fast build rule for target.
-LZMA/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LZMA.dir/build.make CMakeFiles/LZMA.dir/build
-.PHONY : LZMA/fast
-
-#=============================================================================
 # Target rules for targets named AFTERIMAGE
 
 # Build rule for target.
@@ -219,32 +206,6 @@ AFTERIMAGE: cmake_check_build_system
 AFTERIMAGE/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AFTERIMAGE.dir/build.make CMakeFiles/AFTERIMAGE.dir/build
 .PHONY : AFTERIMAGE/fast
-
-#=============================================================================
-# Target rules for targets named TBB
-
-# Build rule for target.
-TBB: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TBB
-.PHONY : TBB
-
-# fast build rule for target.
-TBB/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TBB.dir/build.make CMakeFiles/TBB.dir/build
-.PHONY : TBB/fast
-
-#=============================================================================
-# Target rules for targets named BUILTIN_VDT
-
-# Build rule for target.
-BUILTIN_VDT: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BUILTIN_VDT
-.PHONY : BUILTIN_VDT
-
-# fast build rule for target.
-BUILTIN_VDT/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BUILTIN_VDT.dir/build.make CMakeFiles/BUILTIN_VDT.dir/build
-.PHONY : BUILTIN_VDT/fast
 
 #=============================================================================
 # Target rules for targets named OPENUI5
@@ -466,19 +427,6 @@ zstd: cmake_check_build_system
 zstd/fast:
 	$(MAKE) $(MAKESILENT) -f builtins/zstd/CMakeFiles/zstd.dir/build.make builtins/zstd/CMakeFiles/zstd.dir/build
 .PHONY : zstd/fast
-
-#=============================================================================
-# Target rules for targets named BUILTIN_XROOTD
-
-# Build rule for target.
-BUILTIN_XROOTD: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BUILTIN_XROOTD
-.PHONY : BUILTIN_XROOTD
-
-# fast build rule for target.
-BUILTIN_XROOTD/fast:
-	$(MAKE) $(MAKESILENT) -f builtins/xrootd/CMakeFiles/BUILTIN_XROOTD.dir/build.make builtins/xrootd/CMakeFiles/BUILTIN_XROOTD.dir/build
-.PHONY : BUILTIN_XROOTD/fast
 
 #=============================================================================
 # Target rules for targets named DAVIX
@@ -15288,32 +15236,6 @@ G__TMVAGui/fast:
 .PHONY : G__TMVAGui/fast
 
 #=============================================================================
-# Target rules for targets named PyMVA
-
-# Build rule for target.
-PyMVA: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PyMVA
-.PHONY : PyMVA
-
-# fast build rule for target.
-PyMVA/fast:
-	$(MAKE) $(MAKESILENT) -f tmva/pymva/CMakeFiles/PyMVA.dir/build.make tmva/pymva/CMakeFiles/PyMVA.dir/build
-.PHONY : PyMVA/fast
-
-#=============================================================================
-# Target rules for targets named G__PyMVA
-
-# Build rule for target.
-G__PyMVA: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 G__PyMVA
-.PHONY : G__PyMVA
-
-# fast build rule for target.
-G__PyMVA/fast:
-	$(MAKE) $(MAKESILENT) -f tmva/pymva/CMakeFiles/G__PyMVA.dir/build.make tmva/pymva/CMakeFiles/G__PyMVA.dir/build
-.PHONY : G__PyMVA/fast
-
-#=============================================================================
 # Target rules for targets named ROOTTMVASofie
 
 # Build rule for target.
@@ -15644,8 +15566,6 @@ help:
 	@echo "... AArch64TargetParserTableGen"
 	@echo "... AFTERIMAGE"
 	@echo "... ARMTargetParserTableGen"
-	@echo "... BUILTIN_VDT"
-	@echo "... BUILTIN_XROOTD"
 	@echo "... BitcodeStripOptsTableGen"
 	@echo "... BugpointPasses_exports"
 	@echo "... CGDataOptsTableGen"
@@ -15772,7 +15692,6 @@ help:
 	@echo "... LLVMPrintFunctionNames_exports"
 	@echo "... LLVMRES"
 	@echo "... LTO_exports"
-	@echo "... LZMA"
 	@echo "... LibOptionsTableGen"
 	@echo "... LibtoolDarwinOptsTableGen"
 	@echo "... LinkerWrapperOpts"
@@ -15806,7 +15725,6 @@ help:
 	@echo "... StringsOptsTableGen"
 	@echo "... StripOptsTableGen"
 	@echo "... SymbolizerOptsTableGen"
-	@echo "... TBB"
 	@echo "... TLICheckerOptsTableGen"
 	@echo "... WindresOptsTableGen"
 	@echo "... acc_gen"
@@ -16278,7 +16196,6 @@ help:
 	@echo "... G__NetxNG"
 	@echo "... G__Physics"
 	@echo "... G__Postscript"
-	@echo "... G__PyMVA"
 	@echo "... G__Quadp"
 	@echo "... G__RCsg"
 	@echo "... G__RCurlHttp"
@@ -16489,7 +16406,6 @@ help:
 	@echo "... PluginsOrder"
 	@echo "... Postscript"
 	@echo "... PrintFunctionNames"
-	@echo "... PyMVA"
 	@echo "... Quadp"
 	@echo "... RCsg"
 	@echo "... RCurlHttp"

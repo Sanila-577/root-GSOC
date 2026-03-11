@@ -1516,7 +1516,6 @@ lib/libRGL.so: lib/libROOTNTupleBrowse.so
 lib/libRGL.so: lib/libROOTNTupleUtil.so
 lib/libRGL.so: lib/libROOTNTuple.so
 lib/libRGL.so: lib/libROOTVecOps.so
-lib/libRGL.so: lib/libvdt.dylib
 lib/libRGL.so: lib/libROOTTreeMap.so
 lib/libRGL.so: lib/libTreePlayer.so
 lib/libRGL.so: lib/libTree.so

@@ -535,7 +535,6 @@ lib/libGed.so: lib/libROOTNTupleBrowse.so
 lib/libGed.so: lib/libROOTNTupleUtil.so
 lib/libGed.so: lib/libROOTNTuple.so
 lib/libGed.so: lib/libROOTVecOps.so
-lib/libGed.so: lib/libvdt.dylib
 lib/libGed.so: lib/libROOTTreeMap.so
 lib/libGed.so: lib/libTree.so
 lib/libGed.so: lib/libGraf3d.so

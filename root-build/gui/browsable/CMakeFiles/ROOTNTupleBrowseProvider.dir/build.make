@@ -100,7 +100,6 @@ lib/libROOTNTupleBrowseProvider.so: lib/libROOTNTupleBrowse.so
 lib/libROOTNTupleBrowseProvider.so: lib/libROOTNTupleUtil.so
 lib/libROOTNTupleBrowseProvider.so: lib/libROOTNTuple.so
 lib/libROOTNTupleBrowseProvider.so: lib/libROOTVecOps.so
-lib/libROOTNTupleBrowseProvider.so: lib/libvdt.dylib
 lib/libROOTNTupleBrowseProvider.so: lib/libTree.so
 lib/libROOTNTupleBrowseProvider.so: lib/libROOTTreeMap.so
 lib/libROOTNTupleBrowseProvider.so: lib/libGpad.so

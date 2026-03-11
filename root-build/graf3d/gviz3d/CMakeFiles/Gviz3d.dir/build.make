@@ -171,7 +171,6 @@ lib/libGviz3d.so: lib/libROOTNTupleBrowse.so
 lib/libGviz3d.so: lib/libROOTNTupleUtil.so
 lib/libGviz3d.so: lib/libROOTNTuple.so
 lib/libGviz3d.so: lib/libROOTVecOps.so
-lib/libGviz3d.so: lib/libvdt.dylib
 lib/libGviz3d.so: lib/libROOTTreeMap.so
 lib/libGviz3d.so: lib/libTreePlayer.so
 lib/libGviz3d.so: lib/libTree.so

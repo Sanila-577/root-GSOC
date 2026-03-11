@@ -19,6 +19,7 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROOT_CORE_THREAD_TBB"
+  "_FILE_OFFSET_BITS=64"
   )
 
 # The include file search paths:
@@ -51,6 +52,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/net/net/inc"
   "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/io/io/inc"
   "XROOTD-prefix/include/xrootd"
+  "XROOTD-prefix/include/xrootd/private"
   )
 
 # The set of dependency files which are needed:

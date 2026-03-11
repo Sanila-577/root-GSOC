@@ -42,7 +42,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTBrowsable.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTBrowsable.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTBrowsable.so")
@@ -68,7 +67,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTObjectDraw6Provider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTObjectDraw6Provider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTObjectDraw6Provider.so")
@@ -86,7 +84,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTObjectDraw7Provider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTObjectDraw7Provider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTObjectDraw7Provider.so")
@@ -104,7 +101,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTBranchBrowseProvider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTBranchBrowseProvider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTBranchBrowseProvider.so")
@@ -122,7 +118,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTGeoBrowseProvider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTGeoBrowseProvider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTGeoBrowseProvider.so")
@@ -140,7 +135,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTLeafDraw6Provider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTLeafDraw6Provider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTLeafDraw6Provider.so")
@@ -158,7 +152,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTLeafDraw7Provider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTLeafDraw7Provider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTLeafDraw7Provider.so")
@@ -176,7 +169,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleBrowseProvider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleBrowseProvider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleBrowseProvider.so")
@@ -194,7 +186,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleDraw6Provider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleDraw6Provider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleDraw6Provider.so")
@@ -212,7 +203,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleDraw7Provider.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleDraw7Provider.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libROOTNTupleDraw7Provider.so")

@@ -51,10 +51,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "llvm-tblgen" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/interpreter/llvm-project/llvm/bin/llvm-tblgen")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/llvm-tblgen" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/llvm-tblgen")
-    execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
-      -add_rpath "@loader_path/../lib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/llvm-tblgen")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/llvm-tblgen")
     endif()

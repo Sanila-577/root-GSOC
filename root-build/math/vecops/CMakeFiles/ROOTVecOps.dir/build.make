@@ -98,7 +98,6 @@ lib/libROOTVecOps.so: math/vecops/CMakeFiles/ROOTVecOps.dir/src/RVec.cxx.o
 lib/libROOTVecOps.so: math/vecops/CMakeFiles/G__ROOTVecOps.dir/G__ROOTVecOps.cxx.o
 lib/libROOTVecOps.so: math/vecops/CMakeFiles/ROOTVecOps.dir/build.make
 lib/libROOTVecOps.so: lib/libCore.so
-lib/libROOTVecOps.so: lib/libvdt.dylib
 lib/libROOTVecOps.so: math/vecops/CMakeFiles/ROOTVecOps.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../lib/libROOTVecOps.so"
 	cd /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/math/vecops && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ROOTVecOps.dir/link.txt --verbose=$(VERBOSE)

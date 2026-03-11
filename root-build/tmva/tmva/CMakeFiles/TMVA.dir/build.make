@@ -2708,7 +2708,6 @@ lib/libTMVA.so: tmva/tmva/CMakeFiles/TMVA.dir/build.make
 lib/libTMVA.so: lib/libMinuit.so
 lib/libTMVA.so: lib/libMLP.so
 lib/libTMVA.so: lib/libXMLIO.so
-lib/libTMVA.so: lib/libvdt.dylib
 lib/libTMVA.so: lib/libTreePlayer.so
 lib/libTMVA.so: lib/libGraf3d.so
 lib/libTMVA.so: lib/libTree.so

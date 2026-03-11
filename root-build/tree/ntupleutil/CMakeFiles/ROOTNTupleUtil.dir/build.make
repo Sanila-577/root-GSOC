@@ -133,7 +133,6 @@ lib/libROOTNTupleUtil.so: lib/libROOTNTuple.so
 lib/libROOTNTupleUtil.so: lib/libTree.so
 lib/libROOTNTupleUtil.so: lib/libHist.so
 lib/libROOTNTupleUtil.so: lib/libROOTVecOps.so
-lib/libROOTNTupleUtil.so: lib/libvdt.dylib
 lib/libROOTNTupleUtil.so: lib/libMatrix.so
 lib/libROOTNTupleUtil.so: lib/libMathCore.so
 lib/libROOTNTupleUtil.so: lib/libImt.so

@@ -294,7 +294,6 @@ lib/libGuiHtml.so: lib/libROOTNTupleBrowse.so
 lib/libGuiHtml.so: lib/libROOTNTupleUtil.so
 lib/libGuiHtml.so: lib/libROOTNTuple.so
 lib/libGuiHtml.so: lib/libROOTVecOps.so
-lib/libGuiHtml.so: lib/libvdt.dylib
 lib/libGuiHtml.so: lib/libTree.so
 lib/libGuiHtml.so: lib/libROOTTreeMap.so
 lib/libGuiHtml.so: lib/libGpad.so

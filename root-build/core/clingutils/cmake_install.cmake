@@ -46,7 +46,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvectorDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvectorDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvectorDict.so")
@@ -68,7 +67,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblistDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblistDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblistDict.so")
@@ -90,7 +88,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_listDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_listDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libforward_listDict.so")
@@ -112,7 +109,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdequeDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdequeDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdequeDict.so")
@@ -134,7 +130,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmapDict.so")
@@ -156,7 +151,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmap2Dict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmap2Dict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmap2Dict.so")
@@ -178,7 +172,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_mapDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_mapDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_mapDict.so")
@@ -200,7 +193,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultimapDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultimapDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultimapDict.so")
@@ -222,7 +214,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultimap2Dict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultimap2Dict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultimap2Dict.so")
@@ -244,7 +235,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_multimapDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_multimapDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_multimapDict.so")
@@ -266,7 +256,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsetDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsetDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsetDict.so")
@@ -288,7 +277,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_setDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_setDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_setDict.so")
@@ -310,7 +298,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultisetDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultisetDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmultisetDict.so")
@@ -332,7 +319,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_multisetDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_multisetDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libunordered_multisetDict.so")
@@ -354,7 +340,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcomplexDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcomplexDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libcomplexDict.so")
@@ -376,7 +361,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "libraries" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvalarrayDict.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvalarrayDict.so")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
       -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib"
       -add_rpath "@loader_path/."
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvalarrayDict.so")

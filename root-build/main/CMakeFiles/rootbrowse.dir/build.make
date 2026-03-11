@@ -101,7 +101,6 @@ bin/rootbrowse: lib/libROOTNTupleBrowse.so
 bin/rootbrowse: lib/libROOTNTupleUtil.so
 bin/rootbrowse: lib/libROOTNTuple.so
 bin/rootbrowse: lib/libROOTVecOps.so
-bin/rootbrowse: lib/libvdt.dylib
 bin/rootbrowse: lib/libTree.so
 bin/rootbrowse: lib/libROOTTreeMap.so
 bin/rootbrowse: lib/libGpad.so

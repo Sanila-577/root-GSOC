@@ -49,11 +49,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/tmva/pymva/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/tmva/sofie/cmake_install.cmake")
 endif()
 

@@ -106,7 +106,6 @@ lib/libASImageGui.so: lib/libROOTNTupleBrowse.so
 lib/libASImageGui.so: lib/libROOTNTupleUtil.so
 lib/libASImageGui.so: lib/libROOTNTuple.so
 lib/libASImageGui.so: lib/libROOTVecOps.so
-lib/libASImageGui.so: lib/libvdt.dylib
 lib/libASImageGui.so: lib/libTree.so
 lib/libASImageGui.so: lib/libROOTTreeMap.so
 lib/libASImageGui.so: lib/libGpad.so

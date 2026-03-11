@@ -433,7 +433,7 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 CMAKE_INSTALL_TUTDIR:PATH=
 
 //Command used to invoke cmake
-CMAKE_INVOKE:STRING=/opt/homebrew/bin/cmake  -Dtmva-pymva="On" -Dtmva-sofie="On" /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC
+CMAKE_INVOKE:STRING=/opt/homebrew/bin/cmake  -DPYTHON_EXECUTABLE="/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin/python" -Dbuiltin_protobuf="ON" -Dtmva="ON" -Dtmva-sofie="ON" -Dvdt="OFF" /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC
 
 //libtool executable
 CMAKE_LIBTOOL:PATH=/Library/Developer/CommandLineTools/usr/bin/libtool
@@ -788,13 +788,13 @@ LIBCLANG_LIBRARY_VERSION:STRING=20
 LIBC_GPU_BUILD:BOOL=OFF
 
 //Path to a file.
-LIBLZMA_INCLUDE_DIR:PATH=LIBLZMA_INCLUDE_DIR-NOTFOUND
+LIBLZMA_INCLUDE_DIR:PATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include
 
 //Path to a library.
 LIBLZMA_LIBRARY_DEBUG:FILEPATH=LIBLZMA_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-LIBLZMA_LIBRARY_RELEASE:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/liblzma.tbd
+LIBLZMA_LIBRARY_RELEASE:FILEPATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/liblzma.a
 
 //Path to a file.
 LIBXML2_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2
@@ -1794,6 +1794,11 @@ PNG_PNG_INCLUDE_DIR:PATH=PNG_PNG_INCLUDE_DIR-NOTFOUND
 // Linux.
 PPC_LINUX_DEFAULT_IEEELONGDOUBLE:BOOL=OFF
 
+//No help, variable specified on the command line.
+PYTHON_EXECUTABLE:UNINITIALIZED=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin/python
+
+PYTHON_EXECUTABLE-CACHED:STRING=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin/python
+
 //Found python module 'pygments'
 PY_PYGMENTS_FOUND:BOOL=ON
 
@@ -1805,30 +1810,6 @@ PY_YAML_FOUND:BOOL=ON
 
 //The directory containing a CMake configuration file for Protobuf.
 Protobuf_DIR:PATH=/opt/homebrew/lib/cmake/protobuf
-
-//Path to a file.
-Protobuf_INCLUDE_DIR:PATH=Protobuf_INCLUDE_DIR-NOTFOUND
-
-//Path to a library.
-Protobuf_LIBRARY_DEBUG:FILEPATH=Protobuf_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-Protobuf_LIBRARY_RELEASE:FILEPATH=Protobuf_LIBRARY_RELEASE-NOTFOUND
-
-//Path to a library.
-Protobuf_LITE_LIBRARY_DEBUG:FILEPATH=Protobuf_LITE_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-Protobuf_LITE_LIBRARY_RELEASE:FILEPATH=Protobuf_LITE_LIBRARY_RELEASE-NOTFOUND
-
-//The Google Protocol Buffers Compiler
-Protobuf_PROTOC_EXECUTABLE:FILEPATH=Protobuf_PROTOC_EXECUTABLE-NOTFOUND
-
-//Path to a library.
-Protobuf_PROTOC_LIBRARY_DEBUG:FILEPATH=Protobuf_PROTOC_LIBRARY_DEBUG-NOTFOUND
-
-//Path to a library.
-Protobuf_PROTOC_LIBRARY_RELEASE:FILEPATH=Protobuf_PROTOC_LIBRARY_RELEASE-NOTFOUND
 
 //Value Computed by CMake
 ROOT_BINARY_DIR:STATIC=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build
@@ -1855,16 +1836,19 @@ SQLITE_LIBRARIES:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/us
 TBB_BINARY_DIR:PATH=
 
 //TBB include directory
-TBB_INCLUDE_DIR:PATH=TBB_INCLUDE_DIR-NOTFOUND
+TBB_INCLUDE_DIR:PATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include
+
+//TBB library
+TBB_LIBRARY:STRING=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/libtbb.dylib
 
 //TBB debug library
 TBB_LIBRARY_DEBUG:FILEPATH=TBB_LIBRARY_DEBUG-NOTFOUND
 
 //TBB release library
-TBB_LIBRARY_RELEASE:FILEPATH=TBB_LIBRARY_RELEASE-NOTFOUND
+TBB_LIBRARY_RELEASE:FILEPATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/libtbb.dylib
 
 //TBB root directory
-TBB_ROOT_DIR:PATH=TBB_ROOT_DIR-NOTFOUND
+TBB_ROOT_DIR:PATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build
 
 //Path to TensorFlow pip install dir
 TENSORFLOW_AOT_PATH:PATH=
@@ -1892,16 +1876,40 @@ USE_DEPRECATED_GCC_INSTALL_PREFIX:BOOL=OFF
 UUID_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
 
 //Path to a file.
-VDT_INCLUDE_DIR:PATH=VDT_INCLUDE_DIR-NOTFOUND
+VDT_INCLUDE_DIR:PATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include
 
 //Path to a library.
-VDT_LIBRARY:FILEPATH=VDT_LIBRARY-NOTFOUND
+VDT_LIBRARY:FILEPATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/libvdt.dylib
 
 //Path to a program.
 XCRUN_EXECUTABLE:FILEPATH=/usr/bin/xcrun
 
+//Path to a library.
+XROOTD_CLIENT_LIBRARIES:FILEPATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCl.dylib
+
+//Path to a library.
+XROOTD_HTTP_LIBRARIES:FILEPATH=XROOTD_HTTP_LIBRARIES-NOTFOUND
+
+//Path to a library.
+XROOTD_POSIX_LIBRARY:FILEPATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdPosix.dylib
+
+//Path to a library.
+XROOTD_POSIX_PRELOAD_LIBRARY:FILEPATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdPosixPreload.dylib
+
+//Path to a library.
+XROOTD_SERVER_LIBRARIES:FILEPATH=XROOTD_SERVER_LIBRARIES-NOTFOUND
+
+//Path to a library.
+XROOTD_SSI_LIBRARY:FILEPATH=XROOTD_SSI_LIBRARY-NOTFOUND
+
+//Path to a library.
+XROOTD_SSI_SHMAP_LIBRARY:FILEPATH=XROOTD_SSI_SHMAP_LIBRARY-NOTFOUND
+
+//Path to a library.
+XROOTD_UTILS_LIBRARIES:FILEPATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdUtils.dylib
+
 //The directory containing a CMake configuration file for XRootD.
-XRootD_DIR:PATH=XRootD_DIR-NOTFOUND
+XRootD_DIR:PATH=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/cmake/XRootD
 
 //Path to a file.
 ZLIB_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
@@ -1985,7 +1993,7 @@ builtin_llvm:BOOL=ON
 builtin_lz4:BOOL=OFF
 
 //Build bundled copy of lzma
-builtin_lzma:BOOL=ON
+builtin_lzma:BOOL=OFF
 
 //Use nlohmann/json.hpp file distributed with ROOT
 builtin_nlohmannjson:BOOL=ON
@@ -2002,17 +2010,22 @@ builtin_pcre:BOOL=ON
 //Build bundled copy of libpng
 builtin_png:BOOL=ON
 
+//No help, variable specified on the command line.
+builtin_protobuf:UNINITIALIZED=ON
+
+builtin_protobuf-CACHED:STRING=ON
+
 //Build TBB internally (requires network)
-builtin_tbb:BOOL=ON
+builtin_tbb:BOOL=OFF
 
 //Build bundled copy of unuran
 builtin_unuran:BOOL=OFF
 
 //Build VDT internally (requires network)
-builtin_vdt:BOOL=ON
+builtin_vdt:BOOL=OFF
 
 //Build XRootD internally (requires network)
-builtin_xrootd:BOOL=ON
+builtin_xrootd:BOOL=OFF
 
 //Build bundled copy of xxHash
 builtin_xxhash:BOOL=ON
@@ -2273,6 +2286,8 @@ thisroot_scripts:BOOL=ON
 //Build TMVA multi variate analysis library
 tmva:BOOL=ON
 
+tmva-CACHED:STRING=ON
+
 //Disabled because 'imt' is disabled (Build TMVA with CPU support
 // for deep learning (requires BLAS))
 tmva-cpu:BOOL=OFF
@@ -2285,18 +2300,16 @@ tmva-gpu:BOOL=OFF
 
 //Enable usage of Python ML libraries in TMVA (requires NumPy,
 // works only with TensorFlow<=2.15)
-tmva-pymva:BOOL=On
-
-tmva-pymva-CACHED:STRING=On
+tmva-pymva:BOOL=OFF
 
 //Enable support for R in TMVA
 tmva-rmva:BOOL=OFF
 
 //Build TMVA with support for sofie - fast inference code generation
 // (requires protobuf 3)
-tmva-sofie:BOOL=On
+tmva-sofie:BOOL=ON
 
-tmva-sofie-CACHED:STRING=On
+tmva-sofie-CACHED:STRING=ON
 
 //Build the TPython class that allows you to run Python code from
 // C++
@@ -2322,7 +2335,9 @@ use_gsl_cblas:BOOL=ON
 utf8_range_DIR:PATH=/opt/homebrew/lib/cmake/utf8_range
 
 //Enable support for VDT (fast and vectorisable mathematical functions)
-vdt:BOOL=ON
+vdt:BOOL=OFF
+
+vdt-CACHED:STRING=OFF
 
 //Enable support for VecGeom vectorized geometry library
 vecgeom:BOOL=OFF
@@ -2342,8 +2357,7 @@ x11:BOOL=OFF
 //Enable support for XML (requires libxml2)
 xml:BOOL=ON
 
-//Enabled because builtin_xrootd requested (Enable support for
-// XRootD file server and client)
+//Enable support for XRootD file server and client
 xrootd:BOOL=ON
 
 xxHash_FOUND:BOOL=TRUE
@@ -2693,7 +2707,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=486
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=484
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -2852,6 +2866,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/bin/git][v2.50.1 (Apple Git-155)
 FIND_PACKAGE_MESSAGE_DETAILS_LZ4:INTERNAL=[/opt/homebrew/lib/liblz4.dylib][/opt/homebrew/include][v1.10.0()]
 //Details about finding LibEdit
 FIND_PACKAGE_MESSAGE_DETAILS_LibEdit:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libedit.tbd][v2.11()]
+//Details about finding LibLZMA
+FIND_PACKAGE_MESSAGE_DETAILS_LibLZMA:INTERNAL=[/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/liblzma.a][/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include][1][1][1][v5.2.4()]
 //Details about finding LibXml2
 FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libxml2.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2][v2.9.13()]
 //Details about finding OpenGL
@@ -2864,8 +2880,14 @@ FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/opt/homebrew/bin/protoc-34.0.0]
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin/python3.12][found components: Interpreter ][v3.12.12(3.0)]
 //Details about finding Sqlite
 FIND_PACKAGE_MESSAGE_DETAILS_Sqlite:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libsqlite3.tbd][v()]
+//Details about finding TBB
+FIND_PACKAGE_MESSAGE_DETAILS_TBB:INTERNAL=[/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build][/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include][/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/libtbb.dylib][ ][v2021.9(2020)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding Vdt
+FIND_PACKAGE_MESSAGE_DETAILS_Vdt:INTERNAL=[/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/include][/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/libvdt.dylib][v0.4(0.4)]
+//Details about finding XRootD
+FIND_PACKAGE_MESSAGE_DETAILS_XRootD:INTERNAL=[/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/cmake/XRootD/XRootDConfig.cmake][ ][v5.9.1()]
 //Details about finding ZLIB
 FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include][ ][v1.2.12()]
 //Details about finding libuuid
@@ -3024,11 +3046,11 @@ JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 JPEG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LIBCLANG_LIBRARY_VERSION
 LIBCLANG_LIBRARY_VERSION-ADVANCED:INTERNAL=1
-//Have library /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/liblzma.tbd
+//Have library /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/liblzma.a
 LIBLZMA_HAS_AUTO_DECODER:INTERNAL=1
-//Have library /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/liblzma.tbd
+//Have library /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/liblzma.a
 LIBLZMA_HAS_EASY_ENCODER:INTERNAL=1
-//Have library /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/liblzma.tbd
+//Have library /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/lib/liblzma.a
 LIBLZMA_HAS_LZMA_PRESET:INTERNAL=1
 //ADVANCED property for variable: LIBLZMA_INCLUDE_DIR
 LIBLZMA_INCLUDE_DIR-ADVANCED:INTERNAL=1
@@ -3740,22 +3762,6 @@ PNG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 PNG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PNG_PNG_INCLUDE_DIR
 PNG_PNG_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_INCLUDE_DIR
-Protobuf_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_LIBRARY_DEBUG
-Protobuf_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_LIBRARY_RELEASE
-Protobuf_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_LITE_LIBRARY_DEBUG
-Protobuf_LITE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_LITE_LIBRARY_RELEASE
-Protobuf_LITE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_PROTOC_EXECUTABLE
-Protobuf_PROTOC_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_DEBUG
-Protobuf_PROTOC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_RELEASE
-Protobuf_PROTOC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 ROOT_BINDIR:INTERNAL=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/bin
 //Test ROOT_HAVE_CXX_ATOMICS_WITHOUT_LIB
 ROOT_HAVE_CXX_ATOMICS_WITHOUT_LIB:INTERNAL=1
@@ -3773,6 +3779,8 @@ SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG:INTERNAL=1
 TBB_BINARY_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: TBB_INCLUDE_DIR
 TBB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TBB_LIBRARY
+TBB_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: TBB_LIBRARY_DEBUG
 TBB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: TBB_LIBRARY_RELEASE
@@ -3791,10 +3799,6 @@ UUID_INCLUDE_DIR-ADVANCED:INTERNAL=1
 VDT_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: VDT_LIBRARY
 VDT_LIBRARY-ADVANCED:INTERNAL=1
-XROOTD_CLIENT_LIBRARIES:INTERNAL=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCl.dylib
-XROOTD_INCLUDE_DIRS:INTERNAL=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/include/xrootd
-XROOTD_LIBRARIES:INTERNAL=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdCl.dylib
-XROOTD_UTILS_LIBRARIES:INTERNAL=/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib/libXrdUtils.dylib
 //ADVANCED property for variable: ZLIB_INCLUDE_DIR
 ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ZLIB_LIBRARY_DEBUG

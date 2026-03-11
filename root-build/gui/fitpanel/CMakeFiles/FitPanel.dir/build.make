@@ -151,7 +151,6 @@ lib/libFitPanel.so: lib/libROOTNTupleBrowse.so
 lib/libFitPanel.so: lib/libROOTNTupleUtil.so
 lib/libFitPanel.so: lib/libROOTNTuple.so
 lib/libFitPanel.so: lib/libROOTVecOps.so
-lib/libFitPanel.so: lib/libvdt.dylib
 lib/libFitPanel.so: lib/libROOTTreeMap.so
 lib/libFitPanel.so: lib/libTree.so
 lib/libFitPanel.so: lib/libGraf3d.so

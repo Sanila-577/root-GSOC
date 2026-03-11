@@ -891,7 +891,6 @@ tree/ntupleutil/CMakeFiles/ROOTNTupleUtil.dir/src/RNTupleImporter.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -1516,7 +1515,6 @@ tree/ntupleutil/CMakeFiles/ROOTNTupleUtil.dir/src/RNTupleImporter.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -1565,7 +1563,6 @@ tree/ntupleutil/CMakeFiles/ROOTNTupleUtil.dir/src/RNTupleImporter.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -1688,7 +1685,6 @@ tree/ntupleutil/CMakeFiles/ROOTNTupleUtil.dir/src/RNTupleImporter.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -1709,7 +1705,6 @@ tree/ntupleutil/CMakeFiles/ROOTNTupleUtil.dir/src/RNTupleImporter.cxx.o: /Users/
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -1783,21 +1778,6 @@ tree/ntupleutil/CMakeFiles/ROOTNTupleUtil.dir/src/RNTupleImporter.cxx.o: /Users/
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/io/io/inc/TStreamerInfoActions.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/ntuple/inc/ROOT/RCluster.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/ntuple/inc/ROOT/RClusterPool.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/ntuple/inc/ROOT/RColumn.hxx \
@@ -2850,22 +2830,6 @@ tree/ntupleutil/CMakeFiles/ROOTNTupleUtil.dir/src/RNTupleInspector.cxx.o: /Users
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/ntuple/inc/ROOT/RColumn.hxx:
 
-ginclude/vdt/vdtcore_common.h:
-
-ginclude/vdt/vdtMath.h:
-
-ginclude/vdt/sincos.h:
-
-ginclude/vdt/sin.h:
-
-ginclude/vdt/identity.h:
-
-ginclude/vdt/exp.h:
-
-ginclude/vdt/atan.h:
-
-ginclude/vdt/asin.h:
-
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/io/io/inc/TStreamerInfoActions.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/io/io/inc/TFile.h:
@@ -2914,8 +2878,6 @@ ginclude/vdt/asin.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TString.h:
 
-ginclude/vdt/inv.h:
-
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TStorage.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TObject.h:
@@ -2925,10 +2887,6 @@ ginclude/vdt/inv.h:
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TAttMarker.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TAttLine.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric:
 
@@ -2944,15 +2902,11 @@ ginclude/vdt/inv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h:
 
-/Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/ntupleutil/src/RNTupleImporter.cxx:
 
@@ -3718,8 +3672,6 @@ ginclude/vdt/inv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/subrange.h:
 
-ginclude/vdt/sqrt.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
@@ -3799,8 +3751,6 @@ ginclude/vdt/sqrt.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/interference_size.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/global_new_delete.h:
-
-ginclude/vdt/atan2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/exceptions.h:
 
@@ -4202,8 +4152,6 @@ ginclude/vdt/atan2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h:
 
-ginclude/vdt/cos.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
@@ -4213,8 +4161,6 @@ ginclude/vdt/cos.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h:
-
-ginclude/vdt/log.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
@@ -4425,8 +4371,6 @@ ginclude/RConfigure.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h:
 
@@ -4654,8 +4598,6 @@ ginclude/RConfigure.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
 
-ginclude/vdt/tanh.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/alloca.h:
@@ -4719,8 +4661,6 @@ ginclude/vdt/tanh.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
-
-ginclude/vdt/tan.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h:
 

@@ -15,7 +15,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RActionBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -631,7 +630,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RActionBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
@@ -676,7 +674,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RActionBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -799,7 +796,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RActionBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -820,7 +816,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RActionBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -851,21 +846,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RActionBase.cxx.o: /Users/sanila
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RActionBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
@@ -1816,21 +1796,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RCsvDS.cxx.o: /Users/sanilawijes
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RCsvDS.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
@@ -2711,7 +2676,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFActionHelpers.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -3327,7 +3291,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFActionHelpers.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
@@ -3372,7 +3335,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFActionHelpers.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -3495,7 +3457,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFActionHelpers.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -3517,7 +3478,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFActionHelpers.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -3606,21 +3566,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFActionHelpers.cxx.o: /Users/s
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RActionImpl.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RCutFlowReport.hxx \
@@ -3645,7 +3590,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnReaderUtils.cxx.o: /Use
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -4261,7 +4205,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnReaderUtils.cxx.o: /Use
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -4307,7 +4250,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnReaderUtils.cxx.o: /Use
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -4430,7 +4372,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnReaderUtils.cxx.o: /Use
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -4451,7 +4392,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnReaderUtils.cxx.o: /Use
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -4482,21 +4422,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnReaderUtils.cxx.o: /Use
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
@@ -4530,7 +4455,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnRegister.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -5146,7 +5070,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnRegister.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -5192,7 +5115,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnRegister.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -5315,7 +5237,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnRegister.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -5336,7 +5257,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnRegister.cxx.o: /Users/
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -5367,21 +5287,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFColumnRegister.cxx.o: /Users/
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
@@ -6207,7 +6112,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFDisplay.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -6817,7 +6721,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFDisplay.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
@@ -6862,7 +6765,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFDisplay.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -6985,7 +6887,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFDisplay.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -7006,7 +6907,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFDisplay.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -7033,21 +6933,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFDisplay.cxx.o: /Users/sanilaw
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RDisplay.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/Utils.hxx
 
@@ -7065,7 +6950,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFGraphUtils.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -7685,7 +7569,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFGraphUtils.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -7733,7 +7616,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFGraphUtils.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -7856,7 +7738,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFGraphUtils.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -7878,7 +7759,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFGraphUtils.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -7984,21 +7864,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFGraphUtils.cxx.o: /Users/sani
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -8067,7 +7932,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFHelpers.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -8706,7 +8570,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFHelpers.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
@@ -8756,7 +8619,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFHelpers.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -8901,7 +8763,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFHelpers.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -8923,7 +8784,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFHelpers.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -9035,21 +8895,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFHelpers.cxx.o: /Users/sanilaw
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -10017,7 +9862,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFInterfaceUtils.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -10637,7 +10481,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFInterfaceUtils.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -10685,7 +10528,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFInterfaceUtils.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -10808,7 +10650,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFInterfaceUtils.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -10830,7 +10671,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFInterfaceUtils.cxx.o: /Users/
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -10922,21 +10762,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFInterfaceUtils.cxx.o: /Users/
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -10999,7 +10824,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFSnapshotHelpers.cxx.o: /Users
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -11627,7 +11451,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFSnapshotHelpers.cxx.o: /Users
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -11676,7 +11499,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFSnapshotHelpers.cxx.o: /Users
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -11799,7 +11621,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFSnapshotHelpers.cxx.o: /Users
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -11820,7 +11641,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFSnapshotHelpers.cxx.o: /Users
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -11899,21 +11719,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFSnapshotHelpers.cxx.o: /Users
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/io/io/inc/TStreamerInfoActions.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RActionImpl.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RDatasetSpec.hxx \
@@ -11989,7 +11794,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFUtils.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -12625,7 +12429,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFUtils.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
@@ -12674,7 +12477,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFUtils.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -12797,7 +12599,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFUtils.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -12818,7 +12619,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFUtils.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -12887,21 +12687,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDFUtils.cxx.o: /Users/sanilawij
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/io/io/inc/TStreamerInfoActions.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
@@ -12937,7 +12722,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataFrame.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -13575,7 +13359,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataFrame.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
@@ -13625,7 +13408,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataFrame.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -13748,7 +13530,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataFrame.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -13770,7 +13551,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataFrame.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -13878,21 +13658,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataFrame.cxx.o: /Users/sanilaw
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -13970,7 +13735,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataSource.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -14586,7 +14350,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataSource.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
@@ -14631,7 +14394,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataSource.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -14754,7 +14516,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataSource.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -14775,7 +14536,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataSource.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -14830,21 +14590,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDataSource.cxx.o: /Users/sanila
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RDatasetSpec.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RLoopManager.hxx \
@@ -15716,7 +15461,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -16332,7 +16076,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -16378,7 +16121,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -16501,7 +16243,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -16522,7 +16263,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -16553,21 +16293,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineBase.cxx.o: /Users/sanila
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
@@ -16596,7 +16321,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineReader.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -17208,7 +16932,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineReader.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -17253,7 +16976,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineReader.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -17376,7 +17098,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineReader.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -17397,7 +17118,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineReader.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -17423,21 +17143,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RDefineReader.cxx.o: /Users/sani
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
@@ -17462,7 +17167,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RFilterBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -18074,7 +17778,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RFilterBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -18119,7 +17822,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RFilterBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -18242,7 +17944,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RFilterBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -18263,7 +17964,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RFilterBase.cxx.o: /Users/sanila
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -18289,21 +17989,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RFilterBase.cxx.o: /Users/sanila
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RCutFlowReport.hxx \
@@ -18329,7 +18014,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterface.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -18949,7 +18633,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterface.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -18997,7 +18680,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterface.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -19120,7 +18802,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterface.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -19142,7 +18823,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterface.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -19248,21 +18928,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterface.cxx.o: /Users/sanilaw
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -19329,7 +18994,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterfaceBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -19949,7 +19613,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterfaceBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
@@ -19998,7 +19661,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterfaceBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -20121,7 +19783,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterfaceBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -20143,7 +19804,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterfaceBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -20233,21 +19893,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RInterfaceBase.cxx.o: /Users/san
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -20315,7 +19960,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedAction.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -20931,7 +20575,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedAction.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
@@ -20976,7 +20619,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedAction.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -21099,7 +20741,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedAction.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -21120,7 +20761,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedAction.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -21158,21 +20798,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedAction.cxx.o: /Users/sani
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RActionBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
@@ -21203,7 +20828,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedDefine.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -21815,7 +21439,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedDefine.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -21860,7 +21483,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedDefine.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -21983,7 +21605,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedDefine.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -22004,7 +21625,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedDefine.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -22030,21 +21650,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedDefine.cxx.o: /Users/sani
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RDefineBase.hxx \
@@ -22068,7 +21673,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedFilter.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -22684,7 +22288,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedFilter.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -22730,7 +22333,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedFilter.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -22853,7 +22455,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedFilter.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -22874,7 +22475,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedFilter.cxx.o: /Users/sani
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -22905,21 +22505,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedFilter.cxx.o: /Users/sani
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
@@ -22950,7 +22535,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedVariation.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -23561,7 +23145,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedVariation.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
@@ -23604,7 +23187,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedVariation.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -23727,7 +23309,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedVariation.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -23748,7 +23329,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedVariation.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -23774,21 +23354,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RJittedVariation.cxx.o: /Users/s
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RJittedVariation.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RVariationBase.hxx \
@@ -23808,7 +23373,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RLoopManager.cxx.o: /Users/sanil
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -24434,7 +23998,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RLoopManager.cxx.o: /Users/sanil
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -24485,7 +24048,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RLoopManager.cxx.o: /Users/sanil
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -24619,7 +24181,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RLoopManager.cxx.o: /Users/sanil
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -24640,7 +24201,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RLoopManager.cxx.o: /Users/sanil
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -24734,21 +24294,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RLoopManager.cxx.o: /Users/sanil
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/io/io/inc/TStreamerInfoActions.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RActionBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
@@ -25672,7 +25217,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RNTupleDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -26302,7 +25846,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RNTupleDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -26354,7 +25897,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RNTupleDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -26487,7 +26029,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RNTupleDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -26509,7 +26050,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RNTupleDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -26633,21 +26173,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RNTupleDS.cxx.o: /Users/sanilawi
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -27531,7 +27056,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RResultPtr.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -28151,7 +27675,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RResultPtr.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -28199,7 +27722,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RResultPtr.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -28322,7 +27844,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RResultPtr.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -28344,7 +27865,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RResultPtr.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -28450,21 +27970,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RResultPtr.cxx.o: /Users/sanilaw
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -28531,7 +28036,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RRootDS.cxx.o: /Users/sanilawije
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -29151,7 +28655,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RRootDS.cxx.o: /Users/sanilawije
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -29199,7 +28702,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RRootDS.cxx.o: /Users/sanilawije
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -29322,7 +28824,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RRootDS.cxx.o: /Users/sanilawije
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -29344,7 +28845,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RRootDS.cxx.o: /Users/sanilawije
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -29451,21 +28951,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RRootDS.cxx.o: /Users/sanilawije
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -30380,7 +29865,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RSqliteDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -31000,7 +30484,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RSqliteDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -31050,7 +30533,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RSqliteDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -31185,7 +30667,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RSqliteDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -31207,7 +30688,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RSqliteDS.cxx.o: /Users/sanilawi
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -31325,21 +30805,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RSqliteDS.cxx.o: /Users/sanilawi
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -31408,7 +30873,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTTreeDS.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -32030,7 +31494,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTTreeDS.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -32079,7 +31542,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTTreeDS.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -32202,7 +31664,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTTreeDS.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -32224,7 +31685,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTTreeDS.cxx.o: /Users/sanilawij
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -32350,21 +31810,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTTreeDS.cxx.o: /Users/sanilawij
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -32453,7 +31898,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTreeColumnReader.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -33065,7 +32509,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTreeColumnReader.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -33112,7 +32555,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTreeColumnReader.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -33235,7 +32677,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTreeColumnReader.cxx.o: /Users/
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -33256,7 +32697,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTreeColumnReader.cxx.o: /Users/
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -33320,21 +32760,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTreeColumnReader.cxx.o: /Users/
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/io/io/inc/TStreamerInfoActions.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RTreeColumnReader.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/Utils.hxx \
@@ -33366,7 +32791,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTrivialDS.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -33986,7 +33410,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTrivialDS.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -34034,7 +33457,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTrivialDS.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -34157,7 +33579,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTrivialDS.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -34179,7 +33600,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTrivialDS.cxx.o: /Users/sanilaw
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -34285,21 +33705,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RTrivialDS.cxx.o: /Users/sanilaw
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/matrix/inc/TVectorFfwd.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ActionHelpers.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/ColumnReaderUtils.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphNode.hxx \
@@ -34367,7 +33772,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -34983,7 +34387,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
@@ -35028,7 +34431,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -35151,7 +34553,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -35172,7 +34573,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationBase.cxx.o: /Users/san
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -35203,21 +34603,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationBase.cxx.o: /Users/san
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RDatasetSpec.hxx \
@@ -35245,7 +34630,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationReader.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -35856,7 +35240,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationReader.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
@@ -35899,7 +35282,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationReader.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -36022,7 +35404,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationReader.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -36043,7 +35424,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationReader.cxx.o: /Users/s
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -36069,21 +35449,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationReader.cxx.o: /Users/s
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnReaderBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RVariationBase.hxx \
@@ -36104,7 +35469,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale_posix2008.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
@@ -36712,7 +36076,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -36756,7 +36119,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
@@ -36879,7 +36241,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
@@ -36900,7 +36261,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
@@ -36926,21 +36286,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/math/vecops/inc/ROOT/RVec.hxx \
   ginclude/RConfigure.h \
-  ginclude/vdt/asin.h \
-  ginclude/vdt/atan.h \
-  ginclude/vdt/atan2.h \
-  ginclude/vdt/cos.h \
-  ginclude/vdt/exp.h \
-  ginclude/vdt/identity.h \
-  ginclude/vdt/inv.h \
-  ginclude/vdt/log.h \
-  ginclude/vdt/sin.h \
-  ginclude/vdt/sincos.h \
-  ginclude/vdt/sqrt.h \
-  ginclude/vdt/tan.h \
-  ginclude/vdt/tanh.h \
-  ginclude/vdt/vdtMath.h \
-  ginclude/vdt/vdtcore_common.h \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RVariationBase.hxx \
   /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RVariationsDescription.hxx \
@@ -37335,6 +36680,12 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/Match.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h:
+
+/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TStopwatch.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/GraphUtils.hxx:
@@ -37346,6 +36697,8 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cinttypes:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDataSource.hxx:
 
@@ -37366,22 +36719,6 @@ tree/dataframe/CMakeFiles/ROOTDataFrame.dir/src/RVariationsDescription.cxx.o: /U
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RColumnRegister.hxx:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RDF/RActionBase.hxx:
-
-ginclude/vdt/vdtcore_common.h:
-
-ginclude/vdt/vdtMath.h:
-
-ginclude/vdt/sincos.h:
-
-ginclude/vdt/sin.h:
-
-ginclude/vdt/identity.h:
-
-ginclude/vdt/exp.h:
-
-ginclude/vdt/atan.h:
-
-ginclude/vdt/asin.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/meta/inc/TVirtualIsAProxy.h:
 
@@ -37414,8 +36751,6 @@ ginclude/vdt/asin.h:
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/clib/inc/snprintf.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TString.h:
-
-ginclude/vdt/inv.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TStorage.h:
 
@@ -37458,12 +36793,6 @@ ginclude/vdt/inv.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
 
@@ -37655,10 +36984,6 @@ ginclude/vdt/inv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h:
 
-/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TStopwatch.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/version:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/base/inc/TDatime.h:
@@ -37837,9 +37162,9 @@ ginclude/vdt/inv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/assignable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/detected_or.h:
 
@@ -38119,10 +37444,6 @@ ginclude/vdt/inv.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_types.h:
@@ -38182,8 +37503,6 @@ ginclude/vdt/inv.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/subrange.h:
-
-ginclude/vdt/sqrt.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty.h:
 
@@ -38274,6 +37593,12 @@ ginclude/vdt/sqrt.h:
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
 
@@ -38697,13 +38022,9 @@ ginclude/vdt/sqrt.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h:
 
-ginclude/vdt/cos.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h:
-
-ginclude/vdt/log.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/same_as.h:
 
@@ -38722,6 +38043,10 @@ ginclude/vdt/log.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
@@ -38773,6 +38098,16 @@ ginclude/vdt/log.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
+
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/hist/histv7/inc/ROOT/RAxisVariant.hxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
@@ -38804,12 +38139,6 @@ ginclude/vdt/log.h:
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/treeplayer/inc/TTreeReaderValue.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h:
 
@@ -38939,6 +38268,10 @@ ginclude/RConfigure.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h:
+
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/inc/ROOT/RResultPtr.hxx:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/core/cont/inc/TCollection.h:
@@ -39007,6 +38340,8 @@ ginclude/RConfigure.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/sanitizers.h:
@@ -39023,17 +38358,11 @@ ginclude/RConfigure.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/src/RDFActionHelpers.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
 
@@ -39129,10 +38458,6 @@ ginclude/RConfigure.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
@@ -39217,8 +38542,6 @@ ginclude/RConfigure.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/src/RDefineBase.cxx:
 
-ginclude/vdt/tanh.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
 
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/src/RResultPtr.cxx:
@@ -39297,11 +38620,7 @@ ginclude/vdt/tanh.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_mcontext.h:
-
-ginclude/vdt/atan2.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__new/exceptions.h:
 
@@ -39310,8 +38629,6 @@ ginclude/vdt/atan2.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
-
-ginclude/vdt/tan.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h:
 
@@ -39375,16 +38692,14 @@ ginclude/vdt/tan.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h:
+
 /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/tree/dataframe/src/RJittedDefine.cxx:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h:

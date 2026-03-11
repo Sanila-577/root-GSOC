@@ -2480,18 +2480,6 @@ module "TMVAGui" {
   export *
 }
 
-module "PyMVA" {
-  requires cplusplus
-  module "TMVA/MethodPyAdaBoost.h" { header "TMVA/MethodPyAdaBoost.h" export * }
-  module "TMVA/MethodPyGTB.h" { header "TMVA/MethodPyGTB.h" export * }
-  module "TMVA/MethodPyKeras.h" { header "TMVA/MethodPyKeras.h" export * }
-  module "TMVA/MethodPyRandomForest.h" { header "TMVA/MethodPyRandomForest.h" export * }
-  module "TMVA/MethodPyTorch.h" { header "TMVA/MethodPyTorch.h" export * }
-  module "TMVA/PyMethodBase.h" { header "TMVA/PyMethodBase.h" export * }
-  link "libPyMVA.so"
-  export *
-}
-
 module "ROOTTMVASofie" {
   requires cplusplus
   module "TMVA/OperatorList.hxx" { header "TMVA/OperatorList.hxx" export * }

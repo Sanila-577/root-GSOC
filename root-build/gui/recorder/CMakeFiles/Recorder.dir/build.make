@@ -103,7 +103,6 @@ lib/libRecorder.so: lib/libROOTNTupleUtil.so
 lib/libRecorder.so: lib/libTree.so
 lib/libRecorder.so: lib/libROOTNTuple.so
 lib/libRecorder.so: lib/libROOTVecOps.so
-lib/libRecorder.so: lib/libvdt.dylib
 lib/libRecorder.so: lib/libROOTTreeMap.so
 lib/libRecorder.so: lib/libGpad.so
 lib/libRecorder.so: lib/libGraf.so

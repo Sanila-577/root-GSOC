@@ -1698,7 +1698,6 @@ lib/libEve.so: lib/libROOTNTupleUtil.so
 lib/libEve.so: lib/libTree.so
 lib/libEve.so: lib/libROOTNTuple.so
 lib/libEve.so: lib/libROOTVecOps.so
-lib/libEve.so: lib/libvdt.dylib
 lib/libEve.so: lib/libROOTTreeMap.so
 lib/libEve.so: lib/libGpad.so
 lib/libEve.so: lib/libRCsg.so

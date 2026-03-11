@@ -112,7 +112,6 @@ lib/libTMVAUtils.so: lib/libMatrix.so
 lib/libTMVAUtils.so: lib/libMathCore.so
 lib/libTMVAUtils.so: lib/libROOTNTuple.so
 lib/libTMVAUtils.so: lib/libROOTVecOps.so
-lib/libTMVAUtils.so: lib/libvdt.dylib
 lib/libTMVAUtils.so: lib/libImt.so
 lib/libTMVAUtils.so: lib/libMultiProc.so
 lib/libTMVAUtils.so: lib/libNet.so

@@ -19,7 +19,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_cmake_targets_defined "")
 set(_cmake_targets_not_defined "")
 set(_cmake_expected_targets "")
-foreach(_cmake_expected_target IN ITEMS ROOT::nlohmann_json ROOT::Core ROOT::vectorDict ROOT::listDict ROOT::forward_listDict ROOT::dequeDict ROOT::mapDict ROOT::map2Dict ROOT::unordered_mapDict ROOT::multimapDict ROOT::multimap2Dict ROOT::unordered_multimapDict ROOT::setDict ROOT::unordered_setDict ROOT::multisetDict ROOT::unordered_multisetDict ROOT::complexDict ROOT::valarrayDict ROOT::Imt ROOT::Cling ROOT::MultiProc ROOT::New ROOT::Rint ROOT::Thread ROOT::MathCore ROOT::Matrix ROOT::Minuit ROOT::Minuit2 ROOT::Fumili ROOT::Physics ROOT::MLP ROOT::Quadp ROOT::Foam ROOT::Smatrix ROOT::SPlot ROOT::GenVector ROOT::Genetic ROOT::ROOTVecOps ROOT::Hist ROOT::HistPainter ROOT::ROOTHist ROOT::ROOTHistUtil ROOT::Spectrum ROOT::SpectrumPainter ROOT::Tree ROOT::TreePlayer ROOT::TreeViewer ROOT::ROOTNTupleBrowse ROOT::ROOTTreeViewer ROOT::ROOTDataFrame ROOT::ROOTNTuple ROOT::ROOTNTupleUtil ROOT::ROOTMLDataLoader ROOT::RIO ROOT::SQLIO ROOT::XMLIO ROOT::XMLParser ROOT::Net ROOT::RootAuth ROOT::SrvAuth ROOT::RDAVIX ROOT::RCurlHttp ROOT::NetxNG ROOT::RHTTP ROOT::RHTTPSniff ROOT::ROOTGpadv7 ROOT::ROOTGraphicsPrimitives ROOT::Gpad ROOT::Graf ROOT::Postscript ROOT::ASImage ROOT::ASImageGui ROOT::GQuartz ROOT::GCocoa ROOT::Graf3d ROOT::RCsg ROOT::FTGL ROOT::Eve ROOT::Gviz3d ROOT::RGL ROOT::ROOTGlad ROOT::ROOTEve ROOT::Gui ROOT::Ged ROOT::FitPanel ROOT::GuiBld ROOT::GuiHtml ROOT::Recorder ROOT::ROOTTreeMap ROOT::ROOTWebDisplay ROOT::WebGui6 ROOT::ROOTBrowsable ROOT::ROOTObjectDraw6Provider ROOT::ROOTObjectDraw7Provider ROOT::ROOTBranchBrowseProvider ROOT::ROOTGeoBrowseProvider ROOT::ROOTLeafDraw6Provider ROOT::ROOTLeafDraw7Provider ROOT::ROOTNTupleBrowseProvider ROOT::ROOTNTupleDraw6Provider ROOT::ROOTNTupleDraw7Provider ROOT::ROOTBrowserWidgets ROOT::ROOTBrowserTCanvasWidget ROOT::ROOTBrowserRCanvasWidget ROOT::ROOTBrowserGeomWidget ROOT::ROOTBrowserTreeWidget ROOT::ROOTBrowserv7 ROOT::ROOTCanvasPainter ROOT::ROOTFitPanelv7 ROOT::EG ROOT::Geom ROOT::GeomChecker ROOT::GeomPainter ROOT::Gdml ROOT::ROOTGeomViewer ROOT::root ROOT::rmkdepend ROOT::root.exe ROOT::rootcling ROOT::genreflex ROOT::rootcint ROOT::rootbrowse ROOT::rootcp ROOT::rootrm ROOT::rootls ROOT::CPyCppyy ROOT::cppyy ROOT::ROOTPythonizations ROOT::ROOTTPython ROOT::RSQLite ROOT::TMVA ROOT::TMVAUtils ROOT::TMVAGui ROOT::PyMVA ROOT::ROOTTMVASofie ROOT::ROOTTMVASofieParser ROOT::ROOTTMVASofiePyParsers ROOT::RooBatchCompute ROOT::RooBatchCompute_GENERIC ROOT::RooFitCodegen ROOT::RooFitCore ROOT::RooFit ROOT::RooStats ROOT::HistFactory ROOT::RooFitJSONInterface ROOT::RooFitHS3 ROOT::RooFitXRooFit)
+foreach(_cmake_expected_target IN ITEMS ROOT::nlohmann_json ROOT::Core ROOT::vectorDict ROOT::listDict ROOT::forward_listDict ROOT::dequeDict ROOT::mapDict ROOT::map2Dict ROOT::unordered_mapDict ROOT::multimapDict ROOT::multimap2Dict ROOT::unordered_multimapDict ROOT::setDict ROOT::unordered_setDict ROOT::multisetDict ROOT::unordered_multisetDict ROOT::complexDict ROOT::valarrayDict ROOT::Imt ROOT::Cling ROOT::MultiProc ROOT::New ROOT::Rint ROOT::Thread ROOT::MathCore ROOT::Matrix ROOT::Minuit ROOT::Minuit2 ROOT::Fumili ROOT::Physics ROOT::MLP ROOT::Quadp ROOT::Foam ROOT::Smatrix ROOT::SPlot ROOT::GenVector ROOT::Genetic ROOT::ROOTVecOps ROOT::Hist ROOT::HistPainter ROOT::ROOTHist ROOT::ROOTHistUtil ROOT::Spectrum ROOT::SpectrumPainter ROOT::Tree ROOT::TreePlayer ROOT::TreeViewer ROOT::ROOTNTupleBrowse ROOT::ROOTTreeViewer ROOT::ROOTDataFrame ROOT::ROOTNTuple ROOT::ROOTNTupleUtil ROOT::ROOTMLDataLoader ROOT::RIO ROOT::SQLIO ROOT::XMLIO ROOT::XMLParser ROOT::Net ROOT::RootAuth ROOT::SrvAuth ROOT::RDAVIX ROOT::RCurlHttp ROOT::NetxNG ROOT::RHTTP ROOT::RHTTPSniff ROOT::ROOTGpadv7 ROOT::ROOTGraphicsPrimitives ROOT::Gpad ROOT::Graf ROOT::Postscript ROOT::ASImage ROOT::ASImageGui ROOT::GQuartz ROOT::GCocoa ROOT::Graf3d ROOT::RCsg ROOT::FTGL ROOT::Eve ROOT::Gviz3d ROOT::RGL ROOT::ROOTGlad ROOT::ROOTEve ROOT::Gui ROOT::Ged ROOT::FitPanel ROOT::GuiBld ROOT::GuiHtml ROOT::Recorder ROOT::ROOTTreeMap ROOT::ROOTWebDisplay ROOT::WebGui6 ROOT::ROOTBrowsable ROOT::ROOTObjectDraw6Provider ROOT::ROOTObjectDraw7Provider ROOT::ROOTBranchBrowseProvider ROOT::ROOTGeoBrowseProvider ROOT::ROOTLeafDraw6Provider ROOT::ROOTLeafDraw7Provider ROOT::ROOTNTupleBrowseProvider ROOT::ROOTNTupleDraw6Provider ROOT::ROOTNTupleDraw7Provider ROOT::ROOTBrowserWidgets ROOT::ROOTBrowserTCanvasWidget ROOT::ROOTBrowserRCanvasWidget ROOT::ROOTBrowserGeomWidget ROOT::ROOTBrowserTreeWidget ROOT::ROOTBrowserv7 ROOT::ROOTCanvasPainter ROOT::ROOTFitPanelv7 ROOT::EG ROOT::Geom ROOT::GeomChecker ROOT::GeomPainter ROOT::Gdml ROOT::ROOTGeomViewer ROOT::root ROOT::rmkdepend ROOT::root.exe ROOT::rootcling ROOT::genreflex ROOT::rootcint ROOT::rootbrowse ROOT::rootcp ROOT::rootrm ROOT::rootls ROOT::CPyCppyy ROOT::cppyy ROOT::ROOTPythonizations ROOT::ROOTTPython ROOT::RSQLite ROOT::TMVA ROOT::TMVAUtils ROOT::TMVAGui ROOT::ROOTTMVASofie ROOT::ROOTTMVASofieParser ROOT::ROOTTMVASofiePyParsers ROOT::RooBatchCompute ROOT::RooBatchCompute_GENERIC ROOT::RooFitCodegen ROOT::RooFitCore ROOT::RooFit ROOT::RooStats ROOT::HistFactory ROOT::RooFitJSONInterface ROOT::RooFitHS3 ROOT::RooFitXRooFit)
   list(APPEND _cmake_expected_targets "${_cmake_expected_target}")
   if(TARGET "${_cmake_expected_target}")
     list(APPEND _cmake_targets_defined "${_cmake_expected_target}")
@@ -390,7 +390,7 @@ add_library(ROOT::ROOTVecOps SHARED IMPORTED)
 set_target_properties(ROOT::ROOTVecOps PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "ROOT::Core;VDT::VDT"
+  INTERFACE_LINK_LIBRARIES "ROOT::Core"
 )
 
 # Create imported target ROOT::Hist
@@ -1182,15 +1182,6 @@ set_target_properties(ROOT::TMVAGui PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
   INTERFACE_LINK_LIBRARIES "ROOT::RIO;ROOT::Hist;ROOT::Tree;ROOT::TreeViewer;ROOT::MLP;ROOT::XMLIO;ROOT::TMVA;ROOT::Gui;ROOT::HistPainter;ROOT::Core"
-)
-
-# Create imported target ROOT::PyMVA
-add_library(ROOT::PyMVA SHARED IMPORTED)
-
-set_target_properties(ROOT::PyMVA PROPERTIES
-  INTERFACE_COMPILE_FEATURES "cxx_std_17"
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "ROOT::Core;ROOT::Matrix;ROOT::Thread;ROOT::RIO;ROOT::TMVA"
 )
 
 # Create imported target ROOT::ROOTTMVASofie

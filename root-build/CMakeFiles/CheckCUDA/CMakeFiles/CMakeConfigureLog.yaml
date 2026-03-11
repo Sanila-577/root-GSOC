@@ -20,6 +20,10 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/bin/"
+      - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/sbin/"
+      - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/"
+      - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/bin/"
       - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin/"
       - "/Users/sanilawijesekara/.antigravity/antigravity/bin/"
       - "/Users/sanilawijesekara/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
@@ -39,6 +43,10 @@ events:
       - "/Users/sanilawijesekara/.local/bin/"
       - "/Users/sanilawijesekara/.vscode/extensions/ms-python.debugpy-2025.18.0-darwin-arm64/bundled/scripts/noConfigScripts/"
     searched_directories:
+      - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/bin/uname"
+      - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/sbin/uname"
+      - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/uname"
+      - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/bin/uname"
       - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin/uname"
       - "/Users/sanilawijesekara/.antigravity/antigravity/bin/uname"
       - "/Users/sanilawijesekara/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
@@ -48,7 +56,10 @@ events:
       - "/System/Cryptexes/App/usr/bin/uname"
     found: "/usr/bin/uname"
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build"
       ENV{PATH}:
+        - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/bin"
         - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin"
         - "/Users/sanilawijesekara/.antigravity/antigravity/bin"
         - "/Users/sanilawijesekara/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -103,7 +114,10 @@ events:
       - "/usr/bin/nvcc"
     found: false
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build"
       ENV{PATH}:
+        - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/bin"
         - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin"
         - "/Users/sanilawijesekara/.antigravity/antigravity/bin"
         - "/Users/sanilawijesekara/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
@@ -165,7 +179,10 @@ events:
       - "nvcc.exe"
     found: false
     search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build"
       ENV{PATH}:
+        - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/bin"
         - "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin"
         - "/Users/sanilawijesekara/.antigravity/antigravity/bin"
         - "/Users/sanilawijesekara/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"

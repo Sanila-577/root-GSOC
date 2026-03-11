@@ -264,7 +264,6 @@ lib/libTreeViewer.so: lib/libROOTNTupleBrowse.so
 lib/libTreeViewer.so: lib/libROOTNTupleUtil.so
 lib/libTreeViewer.so: lib/libROOTNTuple.so
 lib/libTreeViewer.so: lib/libROOTVecOps.so
-lib/libTreeViewer.so: lib/libvdt.dylib
 lib/libTreeViewer.so: lib/libROOTTreeMap.so
 lib/libTreeViewer.so: lib/libGraf3d.so
 lib/libTreeViewer.so: lib/libGpad.so

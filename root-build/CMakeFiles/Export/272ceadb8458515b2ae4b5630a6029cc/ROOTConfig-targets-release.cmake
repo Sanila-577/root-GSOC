@@ -621,7 +621,6 @@ list(APPEND _cmake_import_check_files_for_ROOT::RCurlHttp "${_IMPORT_PREFIX}/lib
 # Import target "ROOT::NetxNG" for configuration "Release"
 set_property(TARGET ROOT::NetxNG APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(ROOT::NetxNG PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "XRootD::XrdCl;XRootD::XrdUtils"
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libNetxNG.so"
   IMPORTED_SONAME_RELEASE "@rpath/libNetxNG.so"
   )
@@ -1299,7 +1298,6 @@ list(APPEND _cmake_import_check_files_for_ROOT::RSQLite "${_IMPORT_PREFIX}/lib/l
 # Import target "ROOT::TMVA" for configuration "Release"
 set_property(TARGET ROOT::TMVA APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(ROOT::TMVA PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "VDT::VDT"
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libTMVA.so"
   IMPORTED_SONAME_RELEASE "@rpath/libTMVA.so"
   )
@@ -1326,17 +1324,6 @@ set_target_properties(ROOT::TMVAGui PROPERTIES
 
 list(APPEND _cmake_import_check_targets ROOT::TMVAGui )
 list(APPEND _cmake_import_check_files_for_ROOT::TMVAGui "${_IMPORT_PREFIX}/lib/libTMVAGui.so" )
-
-# Import target "ROOT::PyMVA" for configuration "Release"
-set_property(TARGET ROOT::PyMVA APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(ROOT::PyMVA PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "Python3::Python"
-  IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libPyMVA.so"
-  IMPORTED_SONAME_RELEASE "@rpath/libPyMVA.so"
-  )
-
-list(APPEND _cmake_import_check_targets ROOT::PyMVA )
-list(APPEND _cmake_import_check_files_for_ROOT::PyMVA "${_IMPORT_PREFIX}/lib/libPyMVA.so" )
 
 # Import target "ROOT::ROOTTMVASofie" for configuration "Release"
 set_property(TARGET ROOT::ROOTTMVASofie APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
@@ -1382,7 +1369,6 @@ list(APPEND _cmake_import_check_files_for_ROOT::RooBatchCompute "${_IMPORT_PREFI
 # Import target "ROOT::RooBatchCompute_GENERIC" for configuration "Release"
 set_property(TARGET ROOT::RooBatchCompute_GENERIC APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(ROOT::RooBatchCompute_GENERIC PROPERTIES
-  IMPORTED_LINK_DEPENDENT_LIBRARIES_RELEASE "VDT::VDT"
   IMPORTED_LOCATION_RELEASE "${_IMPORT_PREFIX}/lib/libRooBatchCompute_GENERIC.so"
   IMPORTED_SONAME_RELEASE "@rpath/libRooBatchCompute_GENERIC.so"
   )

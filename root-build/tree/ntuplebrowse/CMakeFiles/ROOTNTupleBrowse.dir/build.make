@@ -149,7 +149,6 @@ lib/libROOTNTupleBrowse.so: lib/libROOTNTupleUtil.so
 lib/libROOTNTupleBrowse.so: lib/libROOTTreeMap.so
 lib/libROOTNTupleBrowse.so: lib/libROOTNTuple.so
 lib/libROOTNTupleBrowse.so: lib/libROOTVecOps.so
-lib/libROOTNTupleBrowse.so: lib/libvdt.dylib
 lib/libROOTNTupleBrowse.so: lib/libTree.so
 lib/libROOTNTupleBrowse.so: lib/libGpad.so
 lib/libROOTNTupleBrowse.so: lib/libGraf.so

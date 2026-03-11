@@ -208,7 +208,6 @@ lib/libRooFitXRooFit.so: lib/libROOTNTupleBrowse.so
 lib/libRooFitXRooFit.so: lib/libROOTNTupleUtil.so
 lib/libRooFitXRooFit.so: lib/libROOTNTuple.so
 lib/libRooFitXRooFit.so: lib/libROOTVecOps.so
-lib/libRooFitXRooFit.so: lib/libvdt.dylib
 lib/libRooFitXRooFit.so: lib/libROOTTreeMap.so
 lib/libRooFitXRooFit.so: lib/libTreePlayer.so
 lib/libRooFitXRooFit.so: lib/libTree.so

@@ -673,7 +673,6 @@ lib/libTMVAGui.so: lib/libTreePlayer.so
 lib/libTMVAGui.so: lib/libTree.so
 lib/libTMVAGui.so: lib/libGraf3d.so
 lib/libTMVAGui.so: lib/libMinuit.so
-lib/libTMVAGui.so: lib/libvdt.dylib
 lib/libTMVAGui.so: lib/libGpad.so
 lib/libTMVAGui.so: lib/libGraf.so
 lib/libTMVAGui.so: lib/libHist.so

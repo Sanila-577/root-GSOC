@@ -157,7 +157,6 @@ lib/modules.idx: lib/libRSQLite.so
 lib/modules.idx: lib/libTMVA.so
 lib/modules.idx: lib/libTMVAUtils.so
 lib/modules.idx: lib/libTMVAGui.so
-lib/modules.idx: lib/libPyMVA.so
 lib/modules.idx: lib/libROOTTMVASofie.so
 lib/modules.idx: lib/libROOTTMVASofieParser.so
 lib/modules.idx: lib/libRooFitCodegen.so

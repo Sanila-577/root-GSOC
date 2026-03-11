@@ -21,6 +21,7 @@ from .layers.softmax import MakeKerasSoftmax
 from .layers.swish import MakeKerasSwish
 from .layers.tanh import MakeKerasTanh
 from .layers.rnn import MakeKerasRNN
+from .layers.conv_transpose import MakeKerasConvTranspose
 
 def MakeKerasActivation(layer):
     attributes = layer["layerAttributes"]
@@ -63,12 +64,13 @@ mapKerasLayer = {
     "MaxPooling2D": MakeKerasPooling,
     "AveragePooling2D": MakeKerasPooling,
     "GlobalAveragePooling2D": MakeKerasPooling,
+    "Conv2DTranspose": MakeKerasConvTranspose,
     "SimpleRNN": MakeKerasRNN,
     "GRU": MakeKerasRNN,
     "LSTM": MakeKerasRNN,
 }
 
-mapKerasLayerWithActivation = {"Dense": MakeKerasDense, "Conv2D": MakeKerasConv}
+mapKerasLayerWithActivation = {"Dense": MakeKerasDense, "Conv2D": MakeKerasConv, "Conv2DTranspose": MakeKerasConvTranspose}
 
 
 def add_layer_into_RModel(rmodel, layer_data):
@@ -195,6 +197,16 @@ def add_layer_into_RModel(rmodel, layer_data):
             rmodel.AddOperator(move_operator(op))
 
         elif fLayerType == "MaxPooling2D" or fLayerType == "AveragePooling2D":
+            if layer_data["channels_last"]:
+                op = SOFIE.ROperator_Transpose("float")([0, 3, 1, 2], inputs[0], LayerName + "PreTrans")
+                rmodel.AddOperator(move_operator(op))
+                inputs[0] = LayerName + "PreTrans"
+                outputs[0] = LayerName + "PostTrans"
+            rmodel.AddOperator(move_operator(mapKerasLayer[fLayerType](layer_data)))
+            if layer_data["channels_last"]:
+                op = SOFIE.ROperator_Transpose("float")([0, 2, 3, 1], LayerName + "PostTrans", fLayerOutput)
+                rmodel.AddOperator(move_operator(op))
+        elif fLayerType == "Conv2DTranspose":
             if layer_data["channels_last"]:
                 op = SOFIE.ROperator_Transpose("float")([0, 3, 1, 2], inputs[0], LayerName + "PreTrans")
                 rmodel.AddOperator(move_operator(op))
@@ -421,143 +433,49 @@ class PyKeras:
                 continue
 
             # Adding any required routines depending on the Layer types for generating inference code.
-            if fLayerType == "Dense":
+            if layer_data["layerType"] == "Dense":
                 rmodel.AddBlasRoutines({"Gemm", "Gemv"})
-            elif fLayerType == "BatchNormalization":
-                rmodel.AddBlasRoutines({"Copy", "Axpy"})
-            elif fLayerType == "Conv1D" or fLayerType == "Conv2D" or fLayerType == "Conv3D":
+            elif layer_data["layerType"] in ["Conv1D", "Conv2D", "Conv3D", "Conv2DTranspose"]:
                 rmodel.AddBlasRoutines({"Gemm", "Axpy"})
             rmodel = add_layer_into_RModel(rmodel, layer_data)
 
         # Extracting model's weights
-        weight = []
-        for idx in range(len(keras_model.get_weights())):
-            weightProp = {}
-            if keras_version < "2.16":
-                weightProp["name"] = keras_model.weights[idx].name
-            else:
-                weightProp["name"] = keras_model.weights[idx].path
-            weightProp["dtype"] = keras_model.get_weights()[idx].dtype.name
-            if "conv" in weightProp["name"] and keras_model.weights[idx].shape.ndims == 4:
-                weightProp["value"] = keras_model.get_weights()[idx].transpose((3, 2, 0, 1)).copy()
-            else:
-                weightProp["value"] = keras_model.get_weights()[idx]
-            weight.append(weightProp)
+        for idx, w_val in enumerate(keras_model.get_weights()):
+            w_name = keras_model.weights[idx].name if keras_version < "2.16" else keras_model.weights[idx].path
+            
+            # Conv Kernel Transposition
+            if "conv" in w_name and w_val.ndim == 4:
+                w_val = w_val.transpose((3, 2, 0, 1)).copy()
 
-        # Traversing through all the Weight tensors
-        for weightIter in range(len(weight)):
-            fWeightTensor = weight[weightIter]
-            fWeightName = fWeightTensor["name"]
-            fWeightDType = SOFIE.ConvertStringToType(fWeightTensor["dtype"])
-            fWeightTensorValue = fWeightTensor["value"]
-            fWeightTensorSize = 1
-            fWeightTensorShape = []
-
-            # IS IT BATCH SIZE? CHECK ONNX
-            if (
-                "simple_rnn" in fWeightName
-                or "lstm" in fWeightName
-                or ("gru" in fWeightName and "bias" not in fWeightName)
-            ):
-                fWeightTensorShape.append(1)
-
-            # Building the shape vector and finding the tensor size
-            for j in range(len(fWeightTensorValue.shape)):
-                fWeightTensorShape.append(fWeightTensorValue.shape[j])
-                fWeightTensorSize *= fWeightTensorValue.shape[j]
-
-            if fWeightDType == SOFIE.ETensorType.FLOAT:
-                fWeightArray = fWeightTensorValue
-
-                # weights conversion format between keras and onnx for lstm: the order of the different
-                # elements (input, output, forget, cell) inside the vector/matrix is different
-                if "lstm" in fWeightName:
-                    if "kernel" in fWeightName:
-                        units = int(fWeightArray.shape[1] / 4)
-                        W_f = fWeightArray[:, units : units * 2].copy()
-                        W_c = fWeightArray[:, units * 2 : units * 3].copy()
-                        W_o = fWeightArray[:, units * 3 :].copy()
-                        fWeightArray[:, units : units * 2] = W_o
-                        fWeightArray[:, units * 2 : units * 3] = W_f
-                        fWeightArray[:, units * 3 :] = W_c
-                    else:  # bias
-                        units = int(fWeightArray.shape[0] / 4)
-                        W_f = fWeightArray[units : units * 2].copy()
-                        W_c = fWeightArray[units * 2 : units * 3].copy()
-                        W_o = fWeightArray[units * 3 :].copy()
-                        fWeightArray[units : units * 2] = W_o
-                        fWeightArray[units * 2 : units * 3] = W_f
-                        fWeightArray[units * 3 :] = W_c
-
-                # need to make specific adjustments for recurrent weights and biases
-                if "simple_rnn" in fWeightName or "lstm" in fWeightName or "gru" in fWeightName:
-                    # reshaping weight matrices for recurrent layers due to keras-onnx inconsistencies
-                    if "kernel" in fWeightName:
-                        fWeightArray = np.transpose(fWeightArray)
-                        fWeightTensorShape[1], fWeightTensorShape[2] = fWeightTensorShape[2], fWeightTensorShape[1]
-
-                    fData = fWeightArray.flatten()
-
-                    # the recurrent bias and the cell bias can be the same, in which case we need to add a
-                    # vector of zeros for the recurrent bias
-                    if "bias" in fWeightName and len(fData.shape) == 1:
-                        fWeightTensorShape[1] *= 2
-                        fRbias = fData.copy() * 0
-                        fData = np.concatenate((fData, fRbias))
-
+            # LSTM Gate Reordering (i,f,c,o) -> (i,o,f,c)
+            if "lstm" in w_name:
+                u = int(w_val.shape[-1] / 4)
+                if w_val.ndim == 2:
+                    i, f, c, o = np.split(w_val, 4, axis=-1)
+                    w_val = np.concatenate([i, o, f, c], axis=-1)
                 else:
-                    fData = fWeightArray.flatten()
-                rmodel.AddInitializedTensor["float"](fWeightName, fWeightTensorShape, fData)
-            else:
-                raise TypeError("Type error: TMVA SOFIE does not yet support data layer type: " + fWeightDType)
+                    i, f, c, o = np.split(w_val, 4)
+                    w_val = np.concatenate([i, o, f, c])
 
-        # Extracting input tensor info
-        if keras_version < "2.16":
-            fPInputs = keras_model.input_names
-        else:
-            fPInputs = [x.name for x in keras_model.inputs]
+            fWeightShape = [1] if any(x in w_name for x in ["simple_rnn", "lstm", "gru"]) and "bias" not in w_name else []
+            fWeightShape += list(w_val.shape)
 
-        fPInputShape = (
-            keras_model.input_shape if isinstance(keras_model.input_shape, list) else [keras_model.input_shape]
-        )
-        fPInputDType = []
-        for idx in range(len(keras_model.inputs)):
-            dtype = keras_model.inputs[idx].dtype.__str__()
-            if dtype == "float32":
-                fPInputDType.append(dtype)
-            else:
-                fPInputDType.append(dtype[9:-2])
+            if any(x in w_name for x in ["simple_rnn", "lstm", "gru"]):
+                if "kernel" in w_name:
+                    w_val = np.transpose(w_val)
+                    fWeightShape[-2], fWeightShape[-1] = fWeightShape[-1], fWeightShape[-2]
+                if "bias" in w_name:
+                    fWeightShape[-1] *= 2
+                    w_val = np.concatenate([w_val, np.zeros_like(w_val)])
 
-        if len(fPInputShape) == 1:
-            inputName = fPInputs[0]
-            inputDType = SOFIE.ConvertStringToType(fPInputDType[0])
-            # convert ot a list to modify batch size
-            inputShape = list(fPInputShape[0])
-            # set the batch size in case of -1 or None as first value
-            if inputShape[0] is None or inputShape[0] <= 0:
-                inputShape[0] = batch_size
-            rmodel.AddInputTensorInfo(inputName, inputDType, inputShape)
-            rmodel.AddInputTensorName(inputName)
-        else:
-            # Iterating through multiple input tensors
-            for inputName, inputDType, inputShapeTuple in zip(fPInputs, fPInputDType, fPInputShape):
-                inputDType = SOFIE.ConvertStringToType(inputDType)
-                inputShape = list(inputShapeTuple)
-                if inputShape[0] is None or inputShape[0] <= 0:
-                    inputShape[0] = batch_size
-                rmodel.AddInputTensorInfo(inputName, inputDType, inputShape)
-                rmodel.AddInputTensorName(inputName)
+            rmodel.AddInitializedTensor["float"](w_name, fWeightShape, w_val.flatten())
 
-        # Adding OutputTensorInfos
-        outputNames = []
-        if keras_version < "2.16" or is_functional_model:
-            for layerName in keras_model.output_names:
-                final_layer = keras_model.get_layer(layerName)
-                output_layer_name = final_layer.output.name
-                outputNames.append(output_layer_name)
-        else:
-            output_layer_name = "tensor_output_" + keras_model.layers[-1].name
-            outputNames.append(output_layer_name)
-
-        rmodel.AddOutputTensorNameList(outputNames)
+        for inp in keras_model.inputs:
+            shape = list(inp.shape)
+            if shape[0] is None: shape[0] = batch_size
+            rmodel.AddInputTensorInfo(inp.name, SOFIE.ConvertStringToType(inp.dtype.name), shape)
+            rmodel.AddInputTensorName(inp.name)
+        
+        output_names = [x.name for x in keras_model.outputs] if keras_version < "2.16" or is_functional else ["tensor_output_" + keras_model.layers[-1].name]
+        rmodel.AddOutputTensorNameList(output_names)
         return rmodel

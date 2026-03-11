@@ -41,10 +41,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "clang-tblgen" OR NOT CMAKE_INSTALL_COMPONEN
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/interpreter/llvm-project/llvm/bin/clang-tblgen")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/clang-tblgen" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/clang-tblgen")
-    execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/root-build/XROOTD-prefix/lib"
-      -add_rpath "@loader_path/../lib"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/clang-tblgen")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/clang-tblgen")
     endif()

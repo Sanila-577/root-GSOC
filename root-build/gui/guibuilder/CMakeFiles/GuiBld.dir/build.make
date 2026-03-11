@@ -198,7 +198,6 @@ lib/libGuiBld.so: lib/libROOTNTupleBrowse.so
 lib/libGuiBld.so: lib/libROOTNTupleUtil.so
 lib/libGuiBld.so: lib/libROOTNTuple.so
 lib/libGuiBld.so: lib/libROOTVecOps.so
-lib/libGuiBld.so: lib/libvdt.dylib
 lib/libGuiBld.so: lib/libTree.so
 lib/libGuiBld.so: lib/libROOTTreeMap.so
 lib/libGuiBld.so: lib/libGpad.so

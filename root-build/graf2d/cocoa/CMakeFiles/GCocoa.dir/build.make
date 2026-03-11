@@ -360,7 +360,6 @@ lib/libGCocoa.so: lib/libROOTNTupleBrowse.so
 lib/libGCocoa.so: lib/libROOTNTupleUtil.so
 lib/libGCocoa.so: lib/libROOTNTuple.so
 lib/libGCocoa.so: lib/libROOTVecOps.so
-lib/libGCocoa.so: lib/libvdt.dylib
 lib/libGCocoa.so: lib/libTree.so
 lib/libGCocoa.so: lib/libROOTTreeMap.so
 lib/libGCocoa.so: lib/libGpad.so

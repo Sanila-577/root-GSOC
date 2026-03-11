@@ -36,7 +36,7 @@
 #undef R__HAS_XFT    /**/
 #define R__HAS_CLAD    /**/
 #define R__HAS_COCOA    /**/
-#define R__HAS_VDT    /**/
+#undef R__HAS_VDT    /**/
 #undef R__HAS_STD_EXPERIMENTAL_SIMD    /**/
 #define R__USE_CXXMODULES   /**/
 #define R__USE_LIBCXX    /**/
@@ -63,7 +63,7 @@
 #undef R__HAS_TMVACPU /**/
 #undef R__HAS_TMVAGPU /**/
 #define R__HAS_CUDNN /**/
-#define R__HAS_PYMVA /**/
+#undef R__HAS_PYMVA /**/
 #undef R__HAS_RMVA /**/
 
 #undef R__HAS_URING /**/

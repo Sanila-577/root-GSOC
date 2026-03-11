@@ -112,7 +112,6 @@ lib/libROOTMLDataLoader.so: lib/libMatrix.so
 lib/libROOTMLDataLoader.so: lib/libMathCore.so
 lib/libROOTMLDataLoader.so: lib/libROOTNTuple.so
 lib/libROOTMLDataLoader.so: lib/libROOTVecOps.so
-lib/libROOTMLDataLoader.so: lib/libvdt.dylib
 lib/libROOTMLDataLoader.so: lib/libImt.so
 lib/libROOTMLDataLoader.so: lib/libMultiProc.so
 lib/libROOTMLDataLoader.so: lib/libNet.so
