@@ -433,7 +433,7 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 CMAKE_INSTALL_TUTDIR:PATH=
 
 //Command used to invoke cmake
-CMAKE_INVOKE:STRING=/opt/homebrew/bin/cmake  -DPYTHON_EXECUTABLE="/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin/python" -Dbuiltin_protobuf="ON" -Dtmva="ON" -Dtmva-sofie="ON" -Dvdt="OFF" /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC
+CMAKE_INVOKE:STRING=/opt/homebrew/bin/cmake  -DPYTHON_EXECUTABLE="/Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC/.venv/bin/python" -Dbuiltin_protobuf="ON" /Users/sanilawijesekara/Documents/gsoc/Root/root-GSOC
 
 //libtool executable
 CMAKE_LIBTOOL:PATH=/Library/Developer/CommandLineTools/usr/bin/libtool
