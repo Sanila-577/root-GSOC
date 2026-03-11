@@ -1,57 +1,82 @@
 import torch
 
+def get_const_value(value_node):
+    """Universal extractor for TorchScript constants (ints, floats, lists, tensors)."""
+    node = value_node.node()
+    if node.kind() != "prim::Constant":
+        if node.kind() == "prim::ListConstruct":
+            return [get_const_value(i) for i in node.inputs()]
+        return "Non-Constant"
+
+    # Check which type of constant it is and use the correct accessor
+    for attr_name in node.attributeNames():
+        if attr_name == "value":
+            # This is the tricky part: we must match the type
+            if node.hasAttribute("value"):
+                kind = node.kindOf("value")
+                if kind == 'f': return node.f("value")  # Float
+                if kind == 'i': return node.i("value")  # Int
+                if kind == 's': return node.s("value")  # String
+                if kind == 't': return node.t("value")  # Tensor
+                if kind == 'is': return list(node.is_("value")) # Int List
+                if kind == 'fs': return list(node.fs("value")) # Float List
+    return None
+
 def parse_model(path):
-    # Load the TorchScript model
     model = torch.jit.load(path)
-    # Important: Ensure the model is in eval mode
     model.eval()
-    
-    graph = model.graph
+    # Using inlined_graph ensures we see the actual math nodes like aten::elu
+    graph = model.inlined_graph
     state_dict = model.state_dict()
 
-    print(f"\n--- Full Graph Dump ---")
-    # This will print EVERYTHING in the graph so we can find the right names
-    print(graph)
+    parsed_results = []
+    print(f"\n--- Parsing Layers from {path} ---")
 
-    print(f"\n--- Analyzing Graph Nodes ---")
     for node in graph.nodes():
         kind = node.kind()
-        print(f"Found node kind: {kind}") # Debug line to see what's happening
+        layer_info = {"kind": kind}
+        inputs = list(node.inputs())
 
-        # We use 'in' because TorchScript often prefixes names (e.g., aten::elu)
-        if "elu" in kind:
-            # Extracting attributes from the graph
-            inputs = list(node.inputs())
-            # Usually: input 0 = data, input 1 = alpha
-            alpha = inputs[1].toPyObject() if len(inputs) > 1 else 1.0
-            print(f"  [SUCCESS] ELU Layer found | Alpha: {alpha}")
+        # 1. ELU (aten::elu(input, alpha, scale, input_scale))
+        if "aten::elu" in kind:
+            alpha = get_const_value(inputs[1])
+            layer_info.update({"type": "ELU", "alpha": alpha})
+            print(f"[SUCCESS] Found ELU | Alpha: {alpha}")
 
+        # 2. MaxPool2D
         elif "max_pool2d" in kind:
-            inputs = list(node.inputs())
-            # MaxPool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
-            kernel = inputs[1].toPyObject()
-            stride = inputs[2].toPyObject()
-            print(f"  [SUCCESS] MaxPool2d found | Kernel: {kernel} | Stride: {stride}")
+            kernel = get_const_value(inputs[1])
+            stride = get_const_value(inputs[2])
+            layer_info.update({"type": "MaxPool2D", "kernel": kernel, "stride": stride})
+            print(f"[SUCCESS] Found MaxPool2d | Kernel: {kernel} | Stride: {stride}")
 
+        # 3. BatchNorm
         elif "batch_norm" in kind:
-            print(f"  [SUCCESS] BatchNorm2D found")
+            eps = get_const_value(inputs[7])
+            layer_info.update({"type": "BatchNorm2d", "eps": eps})
+            print(f"[SUCCESS] Found BatchNorm2d | Eps: {eps}")
 
-        elif "lstm" in kind:
-            print(f"  [SUCCESS] LSTM found")
-            # LSTM has many inputs. Input index 3 is usually hidden_size
-            inputs = list(node.inputs())
-            hidden_size = inputs[3].toPyObject()
-            print(f"    -> Hidden Size: {hidden_size}")
+        # 4. LSTM / RNN / GRU
+        elif any(name in kind for name in ["lstm", "rnn", "gru"]):
+            l_type = kind.split("::")[-1].upper()
+            layer_info.update({"type": l_type})
+            
+            # Extract weights and split them (The "Complexity" requirement)
+            for key, val in state_dict.items():
+                if "weight_ih" in key:
+                    chunks = 4 if "lstm" in kind else (3 if "gru" in kind else 1)
+                    if chunks > 1:
+                        gates = torch.chunk(val, chunks, 0)
+                        layer_info["gate_shapes"] = [list(g.shape) for g in gates]
+            print(f"[SUCCESS] Found {l_type} | Weights split for SOFIE")
 
-            # Match weights from state_dict
-            for key in state_dict:
-                if "lstm.weight_ih" in key:
-                    w_ih = state_dict[key]
-                    # This is the "suitable format" part: 
-                    # PyTorch stores weights as (IFGO) order. 
-                    # We split them to prepare for SOFIE.
-                    i, f, g, o = w_ih.chunk(4, 0)
-                    print(f"    -> Gates extracted. Forget gate shape: {f.shape}")
+        if len(layer_info) > 1:
+            parsed_results.append(layer_info)
 
-# Run it
-parse_model("master_model.pt")
+    return parsed_results
+
+if __name__ == "__main__":
+    results = parse_model("master_model.pt")
+    print("\n--- Final Parsed Output (Exercise 4 Format) ---")
+    import pprint
+    pprint.pprint(results)
