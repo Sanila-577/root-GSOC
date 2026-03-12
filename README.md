@@ -4,9 +4,15 @@
 
 This repository is a fork of [root-project/root](https://github.com/root-project/root), specifically maintained for the GSoC 2026 project: **Improving the Keras and PyTorch Parsers for ML Inference in SOFIE**.
 
-**Candidate:** Sanila Wijesekara
-**Project:** Improving the Keras and PyTorch Parsers for ML Inference in SOFIE
-**Mentors:** Lorenzo Moneta, Sanjiban Sengupta
+# 👤 Candidate Profile
+
+Candidate: Sanila Wijesekara
+
+Project: Improving the Keras and PyTorch Parsers for ML Inference in SOFIE
+
+Branch: gsoc-2026-sofie-dev
+
+Mentors: Lorenzo Moneta, Sanjiban Sengupta
 
 ---
 
