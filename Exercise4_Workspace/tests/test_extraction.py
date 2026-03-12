@@ -28,7 +28,7 @@ class TestSofieParser(unittest.TestCase):
 
     def test_layer_completeness(self):
         """Verify all 6 required layers are present in the parsed output."""
-        required_layers = ["ELU", "MaxPool2D", "BatchNorm2d", "LSTM", "GRU", "RNN_TANH"]
+        required_layers = ["ELU", "MaxPool2D", "BatchNorm2d", "LSTM", "GRU", "RNN"]
         for layer in required_layers:
             with self.subTest(layer=layer):
                 self.assertIn(layer, self.layer_map, f"Missing required layer: {layer}")

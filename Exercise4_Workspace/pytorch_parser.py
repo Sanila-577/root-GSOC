@@ -59,6 +59,8 @@ def parse_model(path):
         # 4. LSTM / RNN / GRU
         elif any(name in kind for name in ["lstm", "rnn", "gru"]):
             l_type = kind.split("::")[-1].upper()
+            if "RNN" in l_type:
+                l_type = "RNN"
             layer_info.update({"type": l_type})
             
             # Extract weights and split them (The "Complexity" requirement)
